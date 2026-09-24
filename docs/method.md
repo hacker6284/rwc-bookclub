@@ -1,19 +1,21 @@
 # Method
 
+Source book: David Wong, *Real-World Cryptography* (purchased EPUB).
 
-Source book: David Wong, *Real-World Cryptography* (your purchased EPUB).
+## Placement (redo)
+English captions/transcripts are fetched for each in-scope video. A short content summary is written from the transcript. A video is attached to a Wong section (or Foundations) **only** when the transcript shows it actually teaches that topic. Title-substring heuristics are banned. Unplaced-in-scope is preferred over false friends (`digital`≠signatures, `hiding`≠commitments, Tor≠BitTorrent, breadboard≠Kerckhoff).
 
-## Files
-1. `01_outline_deep.md` — hierarchical topic outline by chapter.
-2. `02_supplemental_pack.md` — same hierarchy with YouTube links layered in channel order.
-3. `03_coverage_report.json` — machine-readable scan/placement stats.
+## Outline
+Rebuilt from authoritative `chapter_headings.json`. No fabricated nodes (e.g. Tor is Wong §2.4.4; §12.3.1 is Volatility).
 
 ## Video layering
-1. Computerphile (no Computerphile2 exists; Numberphile2 is Brady’s extras channel and is included)
+1. Computerphile
 2. 3Blue1Brown
 3. Sebastian Lague
 4. Ben Eater
-5. Numberphile, Numberphile2, Stand-up Maths, Matt_Parker_2 (Stand-up Maths second channel)
+5. Numberphile, Numberphile2, Stand-up Maths, Matt_Parker_2
 
-## Coverage guarantee
-Full yt-dlp catalog dump → classify every video → place every in-scope video. Unplaced in-scope: 0.
+## Coverage
+- Attachments: 265 (was 348 under keyword placement)
+- Unplaced in-scope: 83
+- No transcript: 28
