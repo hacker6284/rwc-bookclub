@@ -1,0 +1,50 @@
+{
+  "classified": {
+    "computerphile": {
+      "total": 922,
+      "relevant_count": 85,
+      "irrelevant_count": 837
+    },
+    "3blue1brown": {
+      "total": 152,
+      "relevant_count": 52,
+      "irrelevant_count": 100
+    },
+    "sebastian_lague": {
+      "total": 296,
+      "relevant_count": 13,
+      "irrelevant_count": 283
+    },
+    "ben_eater": {
+      "total": 133,
+      "relevant_count": 73,
+      "irrelevant_count": 60
+    },
+    "numberphile": {
+      "total": 815,
+      "relevant_count": 72,
+      "irrelevant_count": 743
+    },
+    "numberphile2": {
+      "total": 275,
+      "relevant_count": 27,
+      "irrelevant_count": 248
+    },
+    "standupmaths": {
+      "total": 319,
+      "relevant_count": 15,
+      "irrelevant_count": 304
+    },
+    "matt_parker_2": {
+      "total": 142,
+      "relevant_count": 11,
+      "irrelevant_count": 131
+    }
+  },
+  "outline_nodes": 552,
+  "outline_leaves": 404,
+  "max_depth": 4,
+  "nodes_with_videos": 195,
+  "video_attachments": 348,
+  "unplaced": []
+}

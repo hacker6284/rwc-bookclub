@@ -1,0 +1,1303 @@
+# Real-World Cryptography — Book Club Supplemental Materials
+
+Companion to David Wong, *Real-World Cryptography* (your EPUB).
+
+**Video layering:** Computerphile → 3Blue1Brown → Sebastian Lague → Ben Eater → Numberphile / Numberphile2 / Stand-up Maths / **Matt_Parker_2**.
+
+The hierarchy starts from Wong’s TOC, deepens with curated in-chapter topics, then grows further where videos go deeper. Section **0 Foundations** holds math/hardware prerequisites.
+
+## Coverage guarantee
+
+| Step | What we did |
+|---|---|
+| 1. Full catalogs | yt-dlp uploads dump per channel (Computerphile, 3B1B, Sebastian Lague, Ben Eater, Numberphile, Numberphile2, Stand-up Maths, Matt_Parker_2) |
+| 2. Exhaustive classify | every video in-scope vs out-of-scope (`audit/`) |
+| 3. Place every in-scope video | match into outline or drill-down leaf |
+| 4. Residual | unplaced in-scope after final pass: **0** |
+
+### Scan totals
+
+- **computerphile**: 922 scanned → **85 in-scope**, 837 out-of-scope
+- **3blue1brown**: 152 scanned → **52 in-scope**, 100 out-of-scope
+- **sebastian_lague**: 296 scanned → **13 in-scope**, 283 out-of-scope
+- **ben_eater**: 133 scanned → **73 in-scope**, 60 out-of-scope
+- **numberphile**: 815 scanned → **72 in-scope**, 743 out-of-scope
+- **numberphile2**: 275 scanned → **27 in-scope**, 248 out-of-scope
+- **standupmaths**: 319 scanned → **15 in-scope**, 304 out-of-scope
+- **matt_parker_2**: 142 scanned → **11 in-scope**, 131 out-of-scope
+
+- Outline nodes: **552** · leaves: **404** · max depth: **4**
+- Nodes with videos: **195** · total video links placed: **348**
+
+### Note on “Computerphile 2”
+
+There is **no Computerphile2** channel. Brady Haran’s “2” extras channel is **Numberphile2** (already included). Computerphile is a single channel (Sean Riley / Brady).
+
+## Annotated outline
+
+- **0 Foundations (supplemental; not a Wong chapter)**
+  - [Lockdown math announcement](https://www.youtube.com/watch?v=ppWPuXsnf1Q) — `3blue1brown`
+  - **0.1 Linear algebra intuition (3Blue1Brown)**
+    - **Cramer's rule, explained geometrically | Chapter 12, Essence of linear algebra**
+      - [Cramer's rule, explained geometrically | Chapter 12, Essence of linear algebra](https://www.youtube.com/watch?v=jBsC34PxzoM) — `3blue1brown`
+    - **Cross products | Chapter 10, Essence of linear algebra**
+      - [Cross products | Chapter 10, Essence of linear algebra](https://www.youtube.com/watch?v=eu6i7WJeinw) — `3blue1brown`
+    - **Dot products and duality | Chapter 9, Essence of linear algebra**
+      - [Dot products and duality | Chapter 9, Essence of linear algebra](https://www.youtube.com/watch?v=LyGKycYT2v0) — `3blue1brown`
+    - **Inverse matrices, column space and null space | Chapter 7, Essence of linear algebra**
+      - [Inverse matrices, column space and null space | Chapter 7, Essence of linear algebra](https://www.youtube.com/watch?v=uQhTuRlWMxw) — `3blue1brown`
+    - **The determinant | Chapter 6, Essence of linear algebra**
+      - [The determinant | Chapter 6, Essence of linear algebra](https://www.youtube.com/watch?v=Ip3X9LOh2dk) — `3blue1brown`
+    - **Three-dimensional linear transformations | Chapter 5, Essence of linear algebra**
+      - [Three-dimensional linear transformations | Chapter 5, Essence of linear algebra](https://www.youtube.com/watch?v=rHLEWRxRGiM) — `3blue1brown`
+    - **Linear transformations and matrices | Chapter 3, Essence of linear algebra**
+      - [Linear transformations and matrices | Chapter 3, Essence of linear algebra](https://www.youtube.com/watch?v=kYB8IZa5AuE) — `3blue1brown`
+  - **0.2 Calculus & transforms**
+    - **Coding Adventure: Sound (and the Fourier Transform)**
+      - [Coding Adventure: Sound (and the Fourier Transform)](https://www.youtube.com/watch?v=iA6wRgwl7k0) — `sebastian_lague`
+    - **But what is a Laplace Transform?**
+      - [But what is a Laplace Transform?](https://www.youtube.com/watch?v=j0wJBEZdwLs) — `3blue1brown`
+    - **The Physics of Euler's Formula | Laplace Transform Prelude**
+      - [The Physics of Euler's Formula | Laplace Transform Prelude](https://www.youtube.com/watch?v=-j8PzkZ70Lg) — `3blue1brown`
+    - **Convolutions | Why X+Y in probability is a beautiful mess**
+      - [Convolutions | Why X+Y in probability is a beautiful mess](https://www.youtube.com/watch?v=IaSGqQa5O-M) — `3blue1brown`
+    - **But what is a convolution?**
+      - [But what is a convolution?](https://www.youtube.com/watch?v=KuXjwB4LzSA) — `3blue1brown`
+    - **How (and why) to raise e to the power of a matrix | DE6**
+      - [How (and why) to raise e to the power of a matrix | DE6](https://www.youtube.com/watch?v=O85OWBJ2ayo) — `3blue1brown`
+    - **Pure Fourier series animation montage**
+      - [Pure Fourier series animation montage](https://www.youtube.com/watch?v=-qgreAUpPwM) — `3blue1brown`
+    - **But what is a Fourier series?  From heat flow to drawing with circles | DE4**
+      - [But what is a Fourier series?  From heat flow to drawing with circles | DE4](https://www.youtube.com/watch?v=r6sGWTCMz2k) — `3blue1brown`
+    - **Taylor series | Chapter 11, Essence of calculus**
+      - [Taylor series | Chapter 11, Essence of calculus](https://www.youtube.com/watch?v=3d6DsjIBzJ4) — `3blue1brown`
+  - **0.3 Probability & information**
+    - **The medical test paradox, and redesigning Bayes' rule**
+      - [The medical test paradox, and redesigning Bayes' rule](https://www.youtube.com/watch?v=lG4VkPoG3ko) — `3blue1brown`
+    - **Why “probability of 0” does not mean “impossible” | Probabilities of probabilities, part 2**
+      - [Why “probability of 0” does not mean “impossible” | Probabilities of probabilities, part 2](https://www.youtube.com/watch?v=ZA4JkHKZM50) — `3blue1brown`
+    - **Bayes theorem, the geometry of changing beliefs**
+      - [Bayes theorem, the geometry of changing beliefs](https://www.youtube.com/watch?v=HZGCoVF3YvM) — `3blue1brown`
+    - **Bayesian Statistics with Hannah Fry**
+      - [Bayesian Statistics with Hannah Fry](https://www.youtube.com/watch?v=7GgLSnQ48os) — `standupmaths`
+  - **0.4 Complex numbers & geometry**
+    - **Quaternions and 3d rotation, explained interactively**
+      - [Quaternions and 3d rotation, explained interactively](https://www.youtube.com/watch?v=zjMuIxRvygQ) — `3blue1brown`
+    - **Visualizing the 4d numbers Quaternions**
+      - [Visualizing the 4d numbers Quaternions](https://www.youtube.com/watch?v=d4EgbgTm0Bg) — `3blue1brown`
+    - **Who cares about topology?   (Old version)**
+      - [Who cares about topology?   (Old version)](https://www.youtube.com/watch?v=AmgkSdhK4K8) — `3blue1brown`
+    - **Euler's Formula**
+      - [Euler's Formula - Numberphile](https://www.youtube.com/watch?v=CRj-sbi2i2I) — `numberphile`
+    - **Postcards from backstage: Katie and Semi-Eulerian Graphs**
+      - [Postcards from backstage: Katie and Semi-Eulerian Graphs](https://www.youtube.com/watch?v=dFvzUNMU1Lo) — `standupmaths`
+    - **Euler's Disk: 10% speed**
+      - [Euler's Disk: 10% speed](https://www.youtube.com/watch?v=2Kk0KMQeRCk) — `matt_parker_2`
+    - **Euler's Disk: normal speed**
+      - [Euler's Disk: normal speed](https://www.youtube.com/watch?v=dmo0whbDiGQ) — `matt_parker_2`
+  - **0.5 Digital logic & CPU guts (Ben Eater)**
+    - **Making a square wave square: Breadboard clock part 2**
+      - [Making a square wave square: Breadboard clock part 2](https://www.youtube.com/watch?v=RT0mp4f4QIs) — `ben_eater`
+    - **The SID: Classic 8-bit sound**
+      - [The SID: Classic 8-bit sound](https://www.youtube.com/watch?v=LSMQ3U1Thzw) — `ben_eater`
+    - **Sound synth with a 6502**
+      - [Sound synth with a 6502](https://www.youtube.com/watch?v=jJi5EAWgyEM) — `ben_eater`
+    - **Running MSBASIC on my breadboard 6502 computer**
+      - [Running MSBASIC on my breadboard 6502 computer](https://www.youtube.com/watch?v=XlbPnihCM0E) — `ben_eater`
+    - **A simple BIOS for my breadboard computer**
+      - [A simple BIOS for my breadboard computer](https://www.youtube.com/watch?v=0q6Ujn_zNH8) — `ben_eater`
+    - **Adapting WozMon for the breadboard 6502**
+      - [Adapting WozMon for the breadboard 6502](https://www.youtube.com/watch?v=7M8LvMtdcgY) — `ben_eater`
+    - **Breadboarding tips**
+      - [Breadboarding tips](https://www.youtube.com/watch?v=PE-_rJqvDhQ) — `ben_eater`
+    - **Why build an entire computer on breadboards?**
+      - [Why build an entire computer on breadboards?](https://www.youtube.com/watch?v=fCbAafKLqC8) — `ben_eater`
+    - **Subroutine calls, now with RAM — 6502 part 7**
+      - [Subroutine calls, now with RAM — 6502 part 7](https://www.youtube.com/watch?v=omI0MrTWiMU) — `ben_eater`
+    - **What is a stack and how does it work? — 6502 part 5**
+      - [What is a stack and how does it work? — 6502 part 5](https://www.youtube.com/watch?v=xBjQVxVxOxc) — `ben_eater`
+    - **Connecting an LCD to our computer — 6502 part 4**
+      - [Connecting an LCD to our computer — 6502 part 4](https://www.youtube.com/watch?v=FY3zTUaykVo) — `ben_eater`
+    - **Assembly language vs. machine code — 6502 part 3**
+      - [Assembly language vs. machine code — 6502 part 3](https://www.youtube.com/watch?v=oO8_2JJV0B4) — `ben_eater`
+    - **How do CPUs read machine code? — 6502 part 2**
+      - [How do CPUs read machine code? — 6502 part 2](https://www.youtube.com/watch?v=yl8vPW5hydQ) — `ben_eater`
+    - **“Hello, world” from scratch on a 6502 — Part 1**
+      - [“Hello, world” from scratch on a 6502 — Part 1](https://www.youtube.com/watch?v=LnzuMJLZRdU) — `ben_eater`
+    - **CPU flags register**
+      - [CPU flags register](https://www.youtube.com/watch?v=ObnosznZvHY) — `ben_eater`
+    - **Adding more machine language instructions to the CPU**
+      - [Adding more machine language instructions to the CPU](https://www.youtube.com/watch?v=FCscQGBIL-Y) — `ben_eater`
+    - **Reprogramming CPU microcode with an Arduino**
+      - [Reprogramming CPU microcode with an Arduino](https://www.youtube.com/watch?v=JUVt_KYAp-I) — `ben_eater`
+    - **8-bit CPU control logic: Part 3**
+      - [8-bit CPU control logic: Part 3](https://www.youtube.com/watch?v=dHWFpkGsxOs) — `ben_eater`
+    - **8-bit CPU control logic: Part 2**
+      - [8-bit CPU control logic: Part 2](https://www.youtube.com/watch?v=X7rCxs1ppyY) — `ben_eater`
+    - **8-bit CPU control logic: Part 1**
+      - [8-bit CPU control logic: Part 1](https://www.youtube.com/watch?v=dXdoim96v5A) — `ben_eater`
+    - **8-bit computer build: Connecting the bus**
+      - [8-bit computer build: Connecting the bus](https://www.youtube.com/watch?v=-6JAgFWCL9w) — `ben_eater`
+    - **Build an 8-bit decimal display for our 8-bit computer**
+      - [Build an 8-bit decimal display for our 8-bit computer](https://www.youtube.com/watch?v=dLh1n2dErzE) — `ben_eater`
+    - **Build an Arduino EEPROM programmer**
+      - [Build an Arduino EEPROM programmer](https://www.youtube.com/watch?v=K88pgWhEb1M) — `ben_eater`
+    - **Using an EEPROM to replace combinational logic**
+      - [Using an EEPROM to replace combinational logic](https://www.youtube.com/watch?v=BA12Z7gQ4P0) — `ben_eater`
+    - **Program counter build**
+      - [Program counter build](https://www.youtube.com/watch?v=tNwU7pK_3tk) — `ben_eater`
+    - **Program counter design**
+      - [Program counter design](https://www.youtube.com/watch?v=g_1HyxBzjl0) — `ben_eater`
+    - **Master-slave JK flip-flop**
+      - [Master-slave JK flip-flop](https://www.youtube.com/watch?v=rXHSB5w7CyE) — `ben_eater`
+    - **JK flip-flop racing**
+      - [JK flip-flop racing](https://www.youtube.com/watch?v=st3mUEub99E) — `ben_eater`
+    - **JK flip-flop**
+      - [JK flip-flop](https://www.youtube.com/watch?v=F1OC5e7Tn_o) — `ben_eater`
+    - **RAM module testing and troubleshooting**
+      - [RAM module testing and troubleshooting](https://www.youtube.com/watch?v=Vw3uDOUJRGw) — `ben_eater`
+    - **RAM module build - part 3**
+      - [RAM module build - part 3](https://www.youtube.com/watch?v=5rl1tEFXKt0) — `ben_eater`
+    - **RAM module build - part 2**
+      - [RAM module build - part 2](https://www.youtube.com/watch?v=KNve2LCcSRc) — `ben_eater`
+    - **RAM module build - part 1**
+      - [RAM module build - part 1](https://www.youtube.com/watch?v=uYXwCBo40iA) — `ben_eater`
+    - **8-bit computer RAM intro**
+      - [8-bit computer RAM intro](https://www.youtube.com/watch?v=FnxPIZR1ybs) — `ben_eater`
+    - **Testing the computer's ALU**
+      - [Testing the computer's ALU](https://www.youtube.com/watch?v=4nCMDvnR2Fg) — `ben_eater`
+    - **Troubleshooting the ALU**
+      - [Troubleshooting the ALU](https://www.youtube.com/watch?v=U7Q8-2YZTUU) — `ben_eater`
+    - **Building the ALU**
+      - [Building the ALU](https://www.youtube.com/watch?v=S-3fXU3FZQc) — `ben_eater`
+    - **ALU Design**
+      - [ALU Design](https://www.youtube.com/watch?v=mOVOS9AjgFs) — `ben_eater`
+    - **Twos complement: Negative numbers in binary**
+      - [Twos complement: Negative numbers in binary](https://www.youtube.com/watch?v=4qH4unVtJkE) — `ben_eater`
+    - **Testing our computer's registers - 8-bit register - Part 5**
+      - [Testing our computer's registers - 8-bit register - Part 5](https://www.youtube.com/watch?v=9WE3Obdjtv0) — `ben_eater`
+    - **Building an 8-bit register - 8-bit register - Part 4**
+      - [Building an 8-bit register - 8-bit register - Part 4](https://www.youtube.com/watch?v=CiMaWbz_6E8) — `ben_eater`
+    - **Designing and building a 1-bit register - 8 bit register - Part 3**
+      - [Designing and building a 1-bit register - 8 bit register - Part 3](https://www.youtube.com/watch?v=-arYx_oVIj8) — `ben_eater`
+    - **Bus architecture and how register transfers work - 8 bit register - Part 1**
+      - [Bus architecture and how register transfers work - 8 bit register - Part 1](https://www.youtube.com/watch?v=QzWW-CBugZo) — `ben_eater`
+    - **Clock logic - 8-bit computer clock - part 4**
+      - [Clock logic - 8-bit computer clock - part 4](https://www.youtube.com/watch?v=SmQ5K7UQPMM) — `ben_eater`
+    - **Bistable 555 - 8-bit computer clock - part 3**
+      - [Bistable 555 - 8-bit computer clock - part 3](https://www.youtube.com/watch?v=WCwJNnx36Rk) — `ben_eater`
+    - **Monostable 555 timer - 8-bit computer clock - part 2**
+      - [Monostable 555 timer - 8-bit computer clock - part 2](https://www.youtube.com/watch?v=81BgFhm2vz8) — `ben_eater`
+    - **Astable 555 timer - 8-bit computer clock - part 1**
+      - [Astable 555 timer - 8-bit computer clock - part 1](https://www.youtube.com/watch?v=kRlSFm519Bo) — `ben_eater`
+    - **8-bit computer update**
+      - [8-bit computer update](https://www.youtube.com/watch?v=HyznrdDSSGM) — `ben_eater`
+    - **D flip-flop**
+      - [D flip-flop](https://www.youtube.com/watch?v=YW-_GkUguMM) — `ben_eater`
+  - **0.6 Error-detecting codes**
+    - **How do CRCs work?**
+      - [How do CRCs work?](https://www.youtube.com/watch?v=izG7qT0EpBw) — `ben_eater`
+    - **Checksums and Hamming distance**
+      - [Checksums and Hamming distance](https://www.youtube.com/watch?v=ppU41c15Xho) — `ben_eater`
+    - **Error detection: Parity checking**
+      - [Error detection: Parity checking](https://www.youtube.com/watch?v=MgkhrBSjhag) — `ben_eater`
+  - **0.7 Prime numbers deep dive (Numberphile / Stand-up Maths)**
+    - **Awkward Primes**
+      - [Awkward Primes - Numberphile](https://www.youtube.com/watch?v=VFoIPlUalRY) — `numberphile`
+    - **Absolute Primes**
+      - [Absolute Primes - Numberphile](https://www.youtube.com/watch?v=cmJ18ViCUAI) — `numberphile`
+    - **Goldbach Conjecture (but with TWIN PRIMES)**
+      - [Goldbach Conjecture (but with TWIN PRIMES)  - Numberphile](https://www.youtube.com/watch?v=Gojd8mTl3Do) — `numberphile`
+    - **Paterson Primes (with 3Blue1Brown)**
+      - [Paterson Primes (with 3Blue1Brown) - Numberphile](https://www.youtube.com/watch?v=jhObLT1Lrfo) — `numberphile`
+    - **The Reciprocals of Primes**
+      - [The Reciprocals of Primes - Numberphile](https://www.youtube.com/watch?v=DmfxIhmGPP4) — `numberphile`
+    - **Finite Fields & Return of The Parker Square**
+      - [Finite Fields & Return of The Parker Square - Numberphile](https://www.youtube.com/watch?v=FCczHiXPVcA) — `numberphile`
+    - **Primes without a 7**
+      - [Primes without a 7 - Numberphile](https://www.youtube.com/watch?v=eeoBCS7IEqs) — `numberphile`
+    - **Squaring Primes**
+      - [Squaring Primes - Numberphile](https://www.youtube.com/watch?v=ZMkIiFs35HQ) — `numberphile`
+    - **78557 and Proth Primes**
+      - [78557 and Proth Primes - Numberphile](https://www.youtube.com/watch?v=fcVjitaM3LY) — `numberphile`
+    - **The Heart of Fermat's Last Theorem**
+      - [The Heart of Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=ua1K3Eo2PQc) — `numberphile`
+    - **Glitch Primes and Cyclops Numbers**
+      - [Glitch Primes and Cyclops Numbers - Numberphile](https://www.youtube.com/watch?v=HPfAnX5blO0) — `numberphile`
+    - **The Bridges to Fermat's Last Theorem**
+      - [The Bridges to Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=nUN4NDVIfVI) — `numberphile`
+    - **Perfect Numbers and Mersenne Primes**
+      - [Perfect Numbers and Mersenne Primes - Numberphile](https://www.youtube.com/watch?v=T0xKHwQH-4I) — `numberphile`
+    - **Homer Simpson vs Pierre de Fermat**
+      - [Homer Simpson vs Pierre de Fermat - Numberphile](https://www.youtube.com/watch?v=ReOQ300AcSU) — `numberphile`
+    - **Fermat's Last Theorem**
+      - [Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=qiNcEguuFSA) — `numberphile`
+    - **Primes are like Weeds (PNT)**
+      - [Primes are like Weeds (PNT) - Numberphile](https://www.youtube.com/watch?v=l8ezziaEeNE) — `numberphile`
+    - **Infinite Primes**
+      - [Infinite Primes - Numberphile](https://www.youtube.com/watch?v=ctC33JAV4FI) — `numberphile`
+    - **5, 13 and 137 are Pythagorean Primes**
+      - [5, 13 and 137 are Pythagorean Primes - Numberphile](https://www.youtube.com/watch?v=yu_aqA7mw7E) — `numberphile`
+    - **Sexy Primes**
+      - [Sexy Primes - Numberphile](https://www.youtube.com/watch?v=WJ12DYBuazY) — `numberphile`
+    - **31 and Mersenne Primes**
+      - [31 and Mersenne Primes - Numberphile](https://www.youtube.com/watch?v=PLL0mo5rHhk) — `numberphile`
+    - **Fermat’s Last Theorem (with Ken Ribet)**
+      - [Fermat’s Last Theorem (with Ken Ribet) - Numberphile Podcast](https://www.youtube.com/watch?v=NPOw4iIxN6o) — `numberphile2`
+    - **Infinite Anti-Primes (extra footage)**
+      - [Infinite Anti-Primes (extra footage) - Numberphile](https://www.youtube.com/watch?v=PF2GtiApF3E) — `numberphile2`
+    - **Heptadecagon and Fermat Primes (the math bit)**
+      - [Heptadecagon and Fermat Primes (the math bit) - Numberphile](https://www.youtube.com/watch?v=oYlB5lUGlbw) — `numberphile2`
+    - **How on Earth does ^.?$|^(..+?)\1+$ produce primes?**
+      - [How on Earth does ^.?$|^(..+?)\1+$ produce primes?](https://www.youtube.com/watch?v=5vbk0TwkokM) — `standupmaths`
+    - **Ramanujan, 1729 and Fermat's Last Theorem**
+      - [Ramanujan, 1729 and Fermat's Last Theorem](https://www.youtube.com/watch?v=_o0cIpLQApk) — `standupmaths`
+    - **Steamed Primes**
+      - [Steamed Primes](https://www.youtube.com/watch?v=kwJ0LJOlUj4) — `matt_parker_2`
+    - **Infinitely Fragile Primes: bonus content!**
+      - [Infinitely Fragile Primes: bonus content!](https://www.youtube.com/watch?v=wtzgbJuHSfM) — `matt_parker_2`
+    - **Predicting primes using the Prime (gaps) Line equation [DELETED SCENE]**
+      - [Predicting primes using the Prime (gaps) Line equation [DELETED SCENE]](https://www.youtube.com/watch?v=omBJTZUefEQ) — `matt_parker_2`
+    - **MPMSolution: the prime pairs puzzle**
+      - [MPMSolution: the prime pairs puzzle](https://www.youtube.com/watch?v=JViGPBykh5k) — `matt_parker_2`
+    - **MPMP: Prime Pairs Puzzle**
+      - [MPMP: Prime Pairs Puzzle](https://www.youtube.com/watch?v=AXfl_e33Gt4) — `matt_parker_2`
+  - **Coding Adventure: Planetary Fluid Sim**
+    - [Coding Adventure: Planetary Fluid Sim](https://www.youtube.com/watch?v=8nIB7e_eds4) — `sebastian_lague`
+  - **Coding Adventure: Rendering Fluids**
+    - [Coding Adventure: Rendering Fluids](https://www.youtube.com/watch?v=kOkfC5fLfgE) — `sebastian_lague`
+  - **Coding Adventure: Simulating Fluids**
+    - [Coding Adventure: Simulating Fluids](https://www.youtube.com/watch?v=rSKMYc1CQHE) — `sebastian_lague`
+  - **Coding Adventure: Making a Better Chess Bot**
+    - [Coding Adventure: Making a Better Chess Bot](https://www.youtube.com/watch?v=_vqlIPDR2TU) — `sebastian_lague`
+  - **Coding Adventure: Chess**
+    - [Coding Adventure: Chess](https://www.youtube.com/watch?v=U4ogK0MIzqk) — `sebastian_lague`
+  - **Coding Adventure: Marching Cubes**
+    - [Coding Adventure: Marching Cubes](https://www.youtube.com/watch?v=M3iI2l0ltbE) — `sebastian_lague`
+  - **Coding Adventure: Ray Marching**
+    - [Coding Adventure: Ray Marching](https://www.youtube.com/watch?v=Cp5WWtMoeKg) — `sebastian_lague`
+  - **Coding Adventure: Hydraulic Erosion**
+    - [Coding Adventure: Hydraulic Erosion](https://www.youtube.com/watch?v=eaXk97ujbPQ) — `sebastian_lague`
+  - **All the uncut maths for the 'Is Kinetic Energy actually ½mv²?' video**
+    - [All the uncut maths for the 'Is Kinetic Energy actually ½mv²?' video](https://www.youtube.com/watch?v=VyYKwJanACI) — `matt_parker_2`
+  - **Why do monkeys count in base-8?**
+    - [Why do monkeys count in base-8?](https://www.youtube.com/watch?v=EZpJ7h8k1fo) — `matt_parker_2`
+  - **Bonus video: knot rules**
+    - [Bonus video: knot rules](https://www.youtube.com/watch?v=Qp2LDpJo-Ng) — `matt_parker_2`
+  - **Naive fraction sum proof**
+    - [Naive fraction sum proof](https://www.youtube.com/watch?v=HMwhuKfM4xc) — `matt_parker_2`
+- **Part 1. Primitives: The ingredients of cryptography**
+- **1 Introduction**
+  - [Colossus & Bletchley Park - Computerphile](https://www.youtube.com/watch?v=9HH-asvLAj4) — `computerphile`
+  - [Cracking Enigma in 2021 - Computerphile](https://www.youtube.com/watch?v=RzWB5jL5RX0) — `computerphile`
+  - [Enigma, TypeX and Dad - Computerphile](https://www.youtube.com/watch?v=jvKdOEHkrJc) — `computerphile`
+  - [Fishy Codes: Bletchley's Other Secret - Computerphile](https://www.youtube.com/watch?v=Ou_9ntYRzzw) — `computerphile`
+  - [Saving Bletchley Park - Computerphile](https://www.youtube.com/watch?v=YCuyt4_uEUY) — `computerphile`
+  - [Tackling Enigma (Turing's Enigma Problem Part 2) - Computerphile](https://www.youtube.com/watch?v=kj_7Jc1mS9k) — `computerphile`
+  - [Turing's Enigma Problem (Part 1) - Computerphile](https://www.youtube.com/watch?v=d2NWPG2gB_A) — `computerphile`
+  - **1.1 Cryptography is about securing protocols**
+  - **1.2 Symmetric cryptography: What is symmetric encryption?**
+    - **one-time pad**
+    - **XOR**
+    - **confidentiality vs authenticity**
+  - **1.3 Kerckhoff’s principle: Only the key is kept secret**
+    - **Kerckhoff's principle**
+    - **security through obscurity**
+      - [Stepping through a program on the 8-bit breadboard computer](https://www.youtube.com/watch?v=35zLnS3fXeA) — `ben_eater`
+  - **1.4 Asymmetric cryptography: Two keys are better than one**
+    - **1.4.1 Key exchanges or how to get a shared secret**
+      - **Diffie–Hellman (preview)**
+        - [But what is the Fourier Transform?  A visual introduction.](https://www.youtube.com/watch?v=spUNpyF58BY) — `3blue1brown`
+        - [Essence of linear algebra preview](https://www.youtube.com/watch?v=kjBOesZCoqc) — `3blue1brown`
+        - [The Secret of the Raffle Function (epic proof) - Numberphile](https://www.youtube.com/watch?v=XhA5U9pFXuU) — `numberphile`
+        - [Fool-Proof Secret Santa - Numberphile](https://www.youtube.com/watch?v=GhnCj7Fvqt0) — `numberphile2`
+      - **shared secret**
+    - **1.4.2 Asymmetric encryption, not like the symmetric one**
+      - **asymmetric encryption (preview)**
+        - [Could We Ban Encryption? - Computerphile](https://www.youtube.com/watch?v=ShUyfk4QB-8) — `computerphile`
+        - [Encryption and HUGE numbers - Numberphile](https://www.youtube.com/watch?v=M7kEpw1tn50) — `numberphile`
+      - **hybrid encryption (preview)**
+    - **1.4.3 Digital signatures, just like your pen-and-paper signatures**
+      - **digital signatures (preview)**
+        - [Let's build a digital clock!](https://www.youtube.com/watch?v=3XDH-fZKnQk) — `ben_eater`
+        - [New World's Biggest Prime Number (PRINTED FULLY ON PAPER) - Numberphile](https://www.youtube.com/watch?v=tlpYjrbujG0) — `numberphile`
+  - **1.5 Classifying and abstracting cryptography**
+  - **1.6 Theoretical cryptography vs. real-world cryptography**
+  - **1.7 From theoretical to practical: Choose your own adventure**
+  - **1.8 A word of warning**
+  - **Summary**
+- **2 Hash functions**
+  - [Hash Collisions & The Birthday Paradox - Computerphile](https://www.youtube.com/watch?v=jsraR-el8_o) — `computerphile`
+  - [Hashing Algorithms and Security - Computerphile](https://www.youtube.com/watch?v=b4b8ktEV4Bg) — `computerphile`
+  - [SHA: Secure Hashing Algorithm - Computerphile](https://www.youtube.com/watch?v=DMtFhACPnTY) — `computerphile`
+  - [The Next Big SHA? SHA3 Sponge Function Explained - Computerphile](https://www.youtube.com/watch?v=fzlflyw7X2I) — `computerphile`
+  - **2.1 What is a hash function?**
+    - **digest / fingerprint**
+    - **one-way function**
+  - **2.2 Security properties of a hash function**
+    - **preimage resistance**
+    - **second-preimage resistance**
+    - **collision resistance**
+  - **2.3 Security considerations for hash functions**
+    - **birthday attack**
+    - **digest length**
+  - **2.4 Hash functions in practice**
+    - **2.4.1 Commitments**
+      - **hiding**
+        - [Pi hiding in prime regularities](https://www.youtube.com/watch?v=NaL_Cb42WyY) — `3blue1brown`
+      - **binding**
+    - **2.4.2 Subresource integrity**
+    - **2.4.3 BitTorrent**
+      - [How TOR Works- Computerphile](https://www.youtube.com/watch?v=QRYzre4bf7I) — `computerphile`
+      - [TOR Hidden Services - Computerphile](https://www.youtube.com/watch?v=lVcbq_a5N9I) — `computerphile`
+      - [Abstract vector spaces | Chapter 16, Essence of linear algebra](https://www.youtube.com/watch?v=TgKwz5Ikpc8) — `3blue1brown`
+      - [Eigenvectors and eigenvalues | Chapter 14, Essence of linear algebra](https://www.youtube.com/watch?v=PFDu9oVAE-g) — `3blue1brown`
+      - [Euler's formula with introductory group theory](https://www.youtube.com/watch?v=mvmuCPvRoWQ) — `3blue1brown`
+      - [Linear combinations, span, and basis vectors | Chapter 2, Essence of linear algebra](https://www.youtube.com/watch?v=k7RM-ot2NWY) — `3blue1brown`
+      - [Vectors | Chapter 1, Essence of linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs) — `3blue1brown`
+      - [Clock synchronization and Manchester coding | Networking tutorial (3 of 13)](https://www.youtube.com/watch?v=8BhjXqw9MqI) — `ben_eater`
+      - [Frame formats | Networking tutorial (6 of 13)](https://www.youtube.com/watch?v=1XrRT0CmzYw) — `ben_eater`
+      - [Making logic gates from transistors](https://www.youtube.com/watch?v=sTu3LwpF6XI) — `ben_eater`
+      - [The importance of framing | Networking tutorial (5 of 13)](https://www.youtube.com/watch?v=xrVN9jKjIKQ) — `ben_eater`
+      - [Matrix Factorization - Numberphile](https://www.youtube.com/watch?v=wTUSz-HSaBg) — `numberphile`
+      - [The Slightly Bungled Mersenne Prime Origin Story - Numberphile](https://www.youtube.com/watch?v=IFTBOUaUClE) — `numberphile`
+    - **2.4.4 Tor**
+  - **2.5 Standardized hash functions**
+    - **2.5.1 The SHA-2 hash function**
+      - **SHA-256**
+      - **SHA-512**
+      - **Merkle–Damgård construction**
+    - **2.5.2 The SHA-3 hash function**
+      - **Keccak**
+      - **sponge construction**
+    - **2.5.3 SHAKE and cSHAKE: Two extendable output functions (XOF)**
+      - **SHAKE128**
+      - **SHAKE256**
+      - **extendable output (XOF)**
+    - **2.5.4 Avoid ambiguous hashing with TupleHash**
+  - **2.6 Hashing passwords**
+    - **salts**
+    - **slow hashing**
+    - **PBKDF2**
+    - **bcrypt**
+    - **scrypt**
+    - **Argon2**
+  - **Summary**
+  - **MD5 (broken, historical)**
+  - **SHA-1 (broken, historical)**
+  - **BLAKE2**
+- **3 Message authentication codes**
+  - [Cookie Stealing - Computerphile](https://www.youtube.com/watch?v=T1QEs3mdJoc) — `computerphile`
+  - [EXTRA BITS - Follow the Cookie Trail - Computerphile](https://www.youtube.com/watch?v=_d0G6FZ_kR4) — `computerphile`
+  - [Follow the Cookie Trail - Computerphile](https://www.youtube.com/watch?v=LHSSY8QNvew) — `computerphile`
+  - **3.1 Stateless cookies, a motivating example for MACs**
+  - **3.2 An example in code**
+  - **3.3 Security properties of a MAC**
+    - **3.3.1 Forgery of authentication tag**
+      - **existential forgery**
+        - [What is error correction? Hamming codes in hardware](https://www.youtube.com/watch?v=h0jloehRKas) — `ben_eater`
+    - **3.3.2 Lengths of authentication tag**
+    - **3.3.3 Replay attacks**
+      - **nonces and timestamps**
+    - **3.3.4 Verifying authentication tags in constant time**
+      - **timing attacks**
+        - [RAM and bus timing — 6502 part 6](https://www.youtube.com/watch?v=i_wrxBdXTgM) — `ben_eater`
+        - [Awesome Prime Number Constant (Mills' Constant) - Numberphile](https://www.youtube.com/watch?v=6ltrPVPEwfo) — `numberphile`
+        - [The Prime Constant - Numberphile](https://www.youtube.com/watch?v=c066hLi78B0) — `numberphile`
+        - [Prime Generating Constant (extra) - Numberphile](https://www.youtube.com/watch?v=yXPhq-36Eq4) — `numberphile2`
+      - **constant-time comparison**
+  - **3.4 MAC in the real world**
+    - **3.4.1 Message authentication**
+    - **3.4.2 Deriving keys**
+    - **3.4.3 Integrity of cookies**
+    - **3.4.4 Hash tables**
+  - **3.5 Message authentication codes (MACs) in practice**
+    - **3.5.1 HMAC, a hash-based MAC**
+      - [Securing Stream Ciphers (HMAC) - Computerphile](https://www.youtube.com/watch?v=wlSG3pEiQdc) — `computerphile`
+      - **HMAC-SHA256**
+    - **3.5.2 KMAC, a MAC based on cSHAKE**
+  - **3.6 SHA-2 and length-extension attacks**
+    - [Coding a SHA2 Length Extension Attack - Computerphile](https://www.youtube.com/watch?v=XQo6rLdFlCg) — `computerphile`
+    - [SHA2 Fatal Flaw? (Hash Length Extension Attack) - Computerphile](https://www.youtube.com/watch?v=gOIBUe1fjX0) — `computerphile`
+    - **Merkle–Damgård length extension**
+    - **why secret-prefix MAC fails**
+  - **Summary**
+- **4 Authenticated encryption**
+  - [Almost All Web Encryption Works Like This (SP Networks) - Computerphile](https://www.youtube.com/watch?v=DLjzI5dX8jc) — `computerphile`
+  - [Feistel Cipher - Computerphile](https://www.youtube.com/watch?v=FGhj3CGxl8I) — `computerphile`
+  - **4.1 What’s a cipher?**
+  - **4.2 The Advanced Encryption Standard (AES) block cipher**
+    - [128 Bit or 256 Bit Encryption? - Computerphile](https://www.youtube.com/watch?v=pgzWxOtk1zg) — `computerphile`
+    - [AES Explained (Advanced Encryption Standard) - Computerphile](https://www.youtube.com/watch?v=O4xNJsjtN6E) — `computerphile`
+    - [One Encryption Standard to Rule Them All! - Computerphile](https://www.youtube.com/watch?v=VYech-c5Dic) — `computerphile`
+    - **4.2.1 How much security does AES provide?**
+    - **4.2.2 The interface of AES**
+      - [6502 serial interface](https://www.youtube.com/watch?v=oLYLnb7kpLg) — `ben_eater`
+      - [RS232 interface with the 6551 UART](https://www.youtube.com/watch?v=zsERDRM1oy8) — `ben_eater`
+      - [SPI: The serial peripheral interface](https://www.youtube.com/watch?v=MCi7dCBhVpQ) — `ben_eater`
+    - **4.2.3 The internals of AES**
+      - **SubBytes**
+      - **ShiftRows**
+      - **MixColumns**
+      - **AddRoundKey**
+      - **S-box**
+  - **4.3 The encrypted penguin and the CBC mode of operation**
+    - [Modes of Operation - Computerphile](https://www.youtube.com/watch?v=Rk0NIQfEXBA) — `computerphile`
+    - **IV**
+    - **ECB failure (Tux penguin)**
+    - **CBC chaining**
+  - **4.4 A lack of authenticity, hence AES-CBC-HMAC**
+    - **Encrypt-then-MAC**
+    - **MAC-then-Encrypt**
+    - **padding oracle**
+  - **4.5 All-in-one constructions: Authenticated encryption**
+    - **4.5.1 What’s authenticated encryption with associated data (AEAD)?**
+    - **4.5.2 The AES-GCM AEAD**
+      - [AES GCM (Advanced Encryption Standard in Galois Counter Mode) - Computerphile](https://www.youtube.com/watch?v=-fpVv_T4xwA) — `computerphile`
+      - **GHASH**
+      - **nonce reuse in GCM**
+    - **4.5.3 ChaCha20-Poly1305**
+      - [Chacha Cipher - Computerphile](https://www.youtube.com/watch?v=UeIpq-C-GSA) — `computerphile`
+      - **ChaCha20**
+      - **Poly1305**
+  - **4.6 Other kinds of symmetric encryption**
+    - **4.6.1 Key wrapping**
+      - **AES Key Wrap**
+        - [5040 and other Anti-Prime Numbers - Numberphile](https://www.youtube.com/watch?v=2JM2oImb9Qg) — `numberphile`
+    - **4.6.2 Nonce misuse-resistant authenticated encryption**
+      - **AES-GCM-SIV**
+    - **4.6.3 Disk encryption**
+      - **XTS-AES**
+    - **4.6.4 Database encryption**
+  - **Summary**
+  - **DES / 3DES (historical)**
+  - **Feistel networks**
+  - **Substitution–Permutation networks**
+  - **Zig Zag Decryption**
+    - [Zig Zag Decryption - Computerphile](https://www.youtube.com/watch?v=yxx3Bkmv3ck) — `computerphile`
+- **5 Key exchanges**
+  - **5.1 What are key exchanges?**
+  - **5.2 The Diffie-Hellman (DH) key exchange**
+    - [Diffie Hellman -the Mathematics bit- Computerphile](https://www.youtube.com/watch?v=Yjrfm_oRO0w) — `computerphile`
+    - [Key Exchange Problems - Computerphile](https://www.youtube.com/watch?v=vsXMMT2CqqE) — `computerphile`
+    - [Secret Key Exchange (Diffie-Hellman) - Computerphile](https://www.youtube.com/watch?v=NmM9HA2MQGI) — `computerphile`
+    - **5.2.1 Group theory**
+      - **cyclic groups**
+        - [Group theory, abstraction, and the 196,883-dimensional monster](https://www.youtube.com/watch?v=mH0oCDa74tE) — `3blue1brown`
+        - [Solving Wordle using information theory](https://www.youtube.com/watch?v=v68zYyaEmEA) — `3blue1brown`
+        - [Monster Group (John Conway) - Numberphile](https://www.youtube.com/watch?v=jsSeoGpiWsw) — `numberphile`
+        - [Monster Group (a little extra bit)](https://www.youtube.com/watch?v=MXKiih4JJvQ) — `numberphile2`
+      - **generators**
+      - **modular arithmetic**
+        - [Primes on the Moon (Lunar Arithmetic) - Numberphile](https://www.youtube.com/watch?v=cZkGeR9CWbk) — `numberphile`
+    - **5.2.2 The discrete logarithm problem: The basis of Diffie-Hellman**
+      - **discrete logarithm problem**
+        - [Change of basis | Chapter 13, Essence of linear algebra](https://www.youtube.com/watch?v=P2LTAUO1TdA) — `3blue1brown`
+        - [This open problem taught me what topology is](https://www.youtube.com/watch?v=IQqtsm-bBRU) — `3blue1brown`
+        - [Using topology for discrete problems | The Borsuk-Ulam theorem and stolen necklaces](https://www.youtube.com/watch?v=yuVqxCSsE7c) — `3blue1brown`
+        - [The Prime Problem with a One Sentence Proof - Numberphile](https://www.youtube.com/watch?v=SyJlRUBoVp0) — `numberphile`
+      - **CDH / DDH**
+    - **5.2.3 The Diffie-Hellman standards**
+      - **MODP groups**
+  - **5.3 The Elliptic Curve Diffie-Hellman (ECDH) key exchange**
+    - [Elliptic Curve Back Door - Computerphile](https://www.youtube.com/watch?v=nybVFJVXbww) — `computerphile`
+    - [Elliptic Curves - Computerphile](https://www.youtube.com/watch?v=NF1pwjL9-DE) — `computerphile`
+    - **5.3.1 What’s an elliptic curve?**
+      - **Weierstrass form**
+        - [Hilbert's Curve: Is infinite math useful?](https://www.youtube.com/watch?v=3s7h2MHQtxc) — `3blue1brown`
+      - **point addition**
+      - **scalar multiplication**
+        - [Matrix multiplication as composition | Chapter 4, Essence of linear algebra](https://www.youtube.com/watch?v=XkY2DOUCWMU) — `3blue1brown`
+    - **5.3.2 How does the Elliptic Curve Diffie-Hellman (ECDH) key exchange work?**
+    - **5.3.3 The standards for Elliptic Curve Diffie-Hellman**
+      - **NIST P-256**
+      - **Curve25519 / X25519**
+  - **5.4 Small subgroup attacks and other security considerations**
+    - **small-subgroup attacks**
+    - **invalid-curve attacks**
+  - **Summary**
+  - **elliptic-curve discrete log**
+  - **The Plotting of Beautiful Curves (Euler Spirals and Sierpiński Triangles) - Numberphile**
+    - [A Strange Map Projection (Euler Spiral) - Numberphile](https://www.youtube.com/watch?v=D3tdW9l1690) — `numberphile`
+    - [Euler Squares - Numberphile](https://www.youtube.com/watch?v=qu04xLNrk94) — `numberphile`
+    - [The Plotting of Beautiful Curves (Euler Spirals and Sierpiński Triangles) - Numberphile](https://www.youtube.com/watch?v=kMBj2fp52tA) — `numberphile`
+    - [Euler Characteristic (some extra footage)](https://www.youtube.com/watch?v=QwfPTE7lEbE) — `numberphile2`
+    - [Euler Squares (extra) - Numberphile](https://www.youtube.com/watch?v=HuIrUeODtVQ) — `numberphile2`
+    - [Triangle Centres and the Euler Line (extra footage)](https://www.youtube.com/watch?v=p7oGGSwUFwM) — `numberphile2`
+    - [Matt & Hugh: Euler Disk III, The Correctioning](https://www.youtube.com/watch?v=XXcWQWO-uHg) — `standupmaths`
+    - [Matt & Hugh: The Euler Disk Which Spins Forever](https://www.youtube.com/watch?v=55gJgCoDld4) — `standupmaths`
+    - [The Maths of Spinning Coins and Euler's Disk](https://www.youtube.com/watch?v=8pSLffliCk0) — `standupmaths`
+- **6 Asymmetric encryption and hybrid encryption**
+  - [Breaking RSA - Computerphile](https://www.youtube.com/watch?v=-ShwJqAalOk) — `computerphile`
+  - [Prime Numbers & RSA Encryption Algorithm - Computerphile](https://www.youtube.com/watch?v=JD72Ry60eP4) — `computerphile`
+  - [Public Key Cryptography - Computerphile](https://www.youtube.com/watch?v=GSIDS_lvRv4) — `computerphile`
+  - **6.1 What is asymmetric encryption?**
+  - **6.2 Asymmetric encryption in practice and hybrid encryption**
+    - **6.2.1 Key exchanges and key encapsulation**
+      - **KEM (key encapsulation)**
+    - **6.2.2 Hybrid encryption**
+  - **6.3 Asymmetric encryption with RSA: The bad and the less bad**
+    - **6.3.1 Textbook RSA**
+      - **modular exponentiation**
+        - [RSA-129 - Numberphile](https://www.youtube.com/watch?v=YQw124CtvO0) — `numberphile`
+      - **φ(n) / totient**
+    - **6.3.2 Why not to use RSA PKCS#1 v1.5**
+      - **Bleichenbacher attack**
+      - **PKCS#1 v1.5**
+    - **6.3.3 Asymmetric encryption with RSA-OAEP**
+      - **OAEP**
+  - **6.4 Hybrid encryption with ECIES**
+    - **ECIES**
+    - **ephemeral ECDH**
+  - **Summary**
+- **7 Signatures and zero-knowledge proofs**
+  - **7.1 What is a signature?**
+    - [What are Digital Signatures? - Computerphile](https://www.youtube.com/watch?v=s22eJ1eVLTU) — `computerphile`
+    - **7.1.1 How to sign and verify signatures in practice**
+    - **7.1.2 A prime use case for signatures: Authenticated key exchanges**
+      - [Why do prime numbers make these spirals? | Dirichlet’s theorem and pi approximations](https://www.youtube.com/watch?v=EK32jo7i5LQ) — `3blue1brown`
+      - [1 is NOT Prime - Numberphile](https://www.youtube.com/watch?v=IQofiPqhJ_s) — `numberphile`
+      - [A Prime Surprise (Mertens Conjecture) - Numberphile](https://www.youtube.com/watch?v=uvMGZb0Suyc) — `numberphile`
+      - [How they found the World's Biggest Prime Number - Numberphile](https://www.youtube.com/watch?v=lEvXcTYqtKU) — `numberphile`
+      - [New Largest Known Prime Number - Numberphile](https://www.youtube.com/watch?v=QSEKzFGpCQs) — `numberphile`
+      - [Prime Knots - Numberphile](https://www.youtube.com/watch?v=M-i9v9VfCrs) — `numberphile`
+      - [Prime Pyramid (with 3Blue1Brown) - Numberphile](https://www.youtube.com/watch?v=NsjsLwYRW8o) — `numberphile`
+      - [Prime Spirals - Numberphile](https://www.youtube.com/watch?v=iFuR97YcSLM) — `numberphile`
+      - [The Last Digit of Prime Numbers - Numberphile](https://www.youtube.com/watch?v=YVvfY_lFUZ8) — `numberphile`
+      - [The Man Who Found the World's Biggest Prime - Numberphile](https://www.youtube.com/watch?v=Yp4ilFOtoeg) — `numberphile`
+      - [The Most Evil Number (Belphegor's Prime) - Numberphile](https://www.youtube.com/watch?v=zk_Q9y_LNzg) — `numberphile`
+      - [The Most Wanted Prime Number - Numberphile](https://www.youtube.com/watch?v=vKlVNFOHJ9I) — `numberphile`
+      - [The Prime Number Race (with 3Blue1Brown) - Numberphile](https://www.youtube.com/watch?v=YAsHGOwB408) — `numberphile`
+      - [The Trinity Hall Prime - Numberphile](https://www.youtube.com/watch?v=fQQ8IiTWHhg) — `numberphile`
+      - [Twin Prime Conjecture - Numberphile](https://www.youtube.com/watch?v=QKHKD8bRAro) — `numberphile`
+      - [Addicted to Prime Numbers (full interview) - Numberphile](https://www.youtube.com/watch?v=Rd8moV7jVX0) — `numberphile2`
+      - [Failed Anti-Prime Conjecture (extra footage) - Numberphile](https://www.youtube.com/watch?v=G3M6UPfSESs) — `numberphile2`
+      - [GIMPS's George Woltman on discovery of 52nd Mersenne Prime (Full Interview) - Numberphile](https://www.youtube.com/watch?v=9ML2q0q53io) — `numberphile2`
+      - [Largest Known Prime discovered by Luke Durant (Full Interview) - Numberphile](https://www.youtube.com/watch?v=aJHPDGj93-w) — `numberphile2`
+      - [Love Prime Numbers - Numberphile](https://www.youtube.com/watch?v=muVcPi7oWWY) — `numberphile2`
+      - [New Largest Known Prime with Matt Parker (Full Interview) - Numberphile](https://www.youtube.com/watch?v=oE8puWQ4taQ) — `numberphile2`
+      - [Newton Goes Prime Time (bonus footage with Steven Strogatz) - Numberphile](https://www.youtube.com/watch?v=Sz5fqryP7ls) — `numberphile2`
+      - [Prime at the End of the Line (extra) - Numberphile](https://www.youtube.com/watch?v=u-_8wX4cECo) — `numberphile2`
+      - [The Badly Behaved Prime (with James Maynard) - Numberphile Podcast](https://www.youtube.com/watch?v=jEdF2qODzTU) — `numberphile2`
+      - [The Largest Known Prime Number - Numberphile Podcast](https://www.youtube.com/watch?v=E6iz4Vs5jcc) — `numberphile2`
+      - [Twin Prime Goldbach Conjecture (extra footage) - Numberphile](https://www.youtube.com/watch?v=d5IMSxRgeZk) — `numberphile2`
+      - [Exploring the mysteries of the Prime (gaps!) Line.](https://www.youtube.com/watch?v=SMsTXQYgbiQ) — `standupmaths`
+      - [How do you prove a prime is infinitely fragile?](https://www.youtube.com/watch?v=p3Khnx0lUDE) — `standupmaths`
+      - [Killing Maths Mosquitoes with Atomic Proofs: roots of two, Fermat and prime numbers](https://www.youtube.com/watch?v=W1OkVkq2vFM) — `standupmaths`
+      - [New World-Record Largest Prime Ever Found!](https://www.youtube.com/watch?v=q5ozBnrd5Zc) — `standupmaths`
+      - [New largest prime number found! See all 41,024,320 digits.](https://www.youtube.com/watch?v=zsyGRDrDfbI) — `standupmaths`
+      - [What is the biggest tangent of a prime?](https://www.youtube.com/watch?v=A7eJb8n8zAw) — `standupmaths`
+    - **7.1.3 A real-world usage: Public key infrastructures**
+  - **7.2 Zero-knowledge proofs (ZKPs): The origin of signatures**
+    - [Zero Knowledge Proofs - Computerphile](https://www.youtube.com/watch?v=HUs1bH85X9I) — `computerphile`
+    - [Zero Knowledge Proof (with Avi Wigderson)  - Numberphile](https://www.youtube.com/watch?v=5ovdoxnfFVc) — `numberphile2`
+    - **7.2.1 Schnorr identification protocol: An interactive zero-knowledge proof**
+      - **Schnorr identification**
+        - [The quick proof of Bayes' theorem](https://www.youtube.com/watch?v=U_85TaXbeIo) — `3blue1brown`
+        - [A Miraculous Proof (Ptolemy's Theorem) - Numberphile](https://www.youtube.com/watch?v=bJOuzqu3MUQ) — `numberphile`
+        - [A proof that e is irrational - Numberphile](https://www.youtube.com/watch?v=xOXsDfMMTjs) — `numberphile`
+        - [Card Flipping Proof - Numberphile](https://www.youtube.com/watch?v=CCxs-tu8tOU) — `numberphile`
+        - [Fool-Proof Test for Primes - Numberphile](https://www.youtube.com/watch?v=HvMSRWTE2mI) — `numberphile`
+        - [Golden Proof - Numberphile](https://www.youtube.com/watch?v=dTWKKvlZB08) — `numberphile`
+        - [Perfect Number Proof - Numberphile](https://www.youtube.com/watch?v=q8n15q1v4Xo) — `numberphile`
+        - [Schur Numbers (the world's biggest proof) - Numberphile](https://www.youtube.com/watch?v=57V8Ud7PL8k) — `numberphile`
+        - [Sum of Natural Numbers (second proof and extra footage)](https://www.youtube.com/watch?v=E-d9mgo8FGk) — `numberphile`
+        - [Twin Proofs for Twin Primes - Numberphile](https://www.youtube.com/watch?v=n4gmYjyI3vo) — `numberphile`
+        - [A Proof in the Drawer (with David Eisenbud) - Numberphile Podcast](https://www.youtube.com/watch?v=9y1BGvnTyQA) — `numberphile2`
+        - [Conway Checkers (proof) - Numberphile](https://www.youtube.com/watch?v=Or0uWM9bT5w) — `numberphile2`
+        - [The One Sentence Proof (in multiple sentences) - Numberphile](https://www.youtube.com/watch?v=yGsIw8LHXM8) — `numberphile2`
+        - [When a complicated proof simplifies everything](https://www.youtube.com/watch?v=MhJN9sByRS0) — `standupmaths`
+      - **sigma protocols**
+    - **7.2.2 Signatures as non-interactive zero-knowledge proofs**
+      - **Fiat–Shamir heuristic**
+  - **7.3 The signature algorithms you should use (or not)**
+    - **7.3.1 RSA PKCS#1 v1.5: A bad standard**
+    - **7.3.2 RSA-PSS: A better standard**
+    - **7.3.3 The Elliptic Curve Digital Signature Algorithm (ECDSA)**
+      - **ECDSA nonce reuse**
+        - [The DP-3T algorithm for contact tracing (with Nicky Case)](https://www.youtube.com/watch?v=D__UaR5MQao) — `3blue1brown`
+      - **PS3 ECDSA incident**
+    - **7.3.4 The Edwards-curve Digital Signature Algorithm (EdDSA)**
+      - **Ed25519**
+      - **deterministic nonces**
+  - **7.4 Subtle behaviors of signature schemes**
+    - **7.4.1 Substitution attacks on signatures**
+      - **key-substitution attacks**
+    - **7.4.2 Signature malleability**
+      - [Malleable Encryption - Computerphile](https://www.youtube.com/watch?v=40xanXXsw24) — `computerphile`
+      - **signature malleability**
+  - **Summary**
+- **8 Randomness and secrets**
+  - [2FA: Two Factor Authentication - Computerphile](https://www.youtube.com/watch?v=ZXFYT-BG2So) — `computerphile`
+  - [Diceware & Passwords - Computerphile](https://www.youtube.com/watch?v=Pe_3cFuSw1E) — `computerphile`
+  - [Encryption & Entropy - Computerphile](https://www.youtube.com/watch?v=8VSuwDG4bhw) — `computerphile`
+  - [How NOT to Store Passwords! - Computerphile](https://www.youtube.com/watch?v=8ZtInClXe1Q) — `computerphile`
+  - [How Password Managers Work - Computerphile](https://www.youtube.com/watch?v=w68BBPDAWr8) — `computerphile`
+  - [How to Choose a Password - Computerphile](https://www.youtube.com/watch?v=3NjQ9b3pgIg) — `computerphile`
+  - [Password Cracking - Computerphile](https://www.youtube.com/watch?v=7U-RbOKanYs) — `computerphile`
+  - [Random Numbers with LFSR (Linear Feedback Shift Register) - Computerphile](https://www.youtube.com/watch?v=Ks1pw1X22y4) — `computerphile`
+  - [True Random Numbers - Computerphile](https://www.youtube.com/watch?v=aEJB8IAMMpA) — `computerphile`
+  - **8.1 What’s randomness?**
+    - **entropy**
+      - [But what is cross-entropy? | Compression is Intelligence Part 2](https://www.youtube.com/watch?v=GlYgs6v2YfU) — `3blue1brown`
+      - [Reinventing Entropy | Compression is Intelligence Part 1](https://www.youtube.com/watch?v=l6DKRf-fAAM) — `3blue1brown`
+      - [Randomness is Random - Numberphile](https://www.youtube.com/watch?v=tP-Ipsat90c) — `numberphile`
+      - [Calculating pi from coin flips (without randomness)](https://www.youtube.com/watch?v=kahGSss6SsU) — `standupmaths`
+    - **bias**
+  - **8.2 Slow randomness? Use a pseudorandom number generator (PRNG)**
+    - **CSPRNG**
+      - [e (Euler's Number) - Numberphile](https://www.youtube.com/watch?v=AuA2EAgAegE) — `numberphile`
+  - **8.3 Obtaining randomness in practice**
+    - **/dev/urandom**
+    - **getrandom**
+    - **RDRAND**
+  - **8.4 Randomness generation and security considerations**
+    - **Dual_EC_DRBG**
+  - **8.5 Public randomness**
+  - **8.6 Key derivation with HKDF**
+  - **8.7 Managing keys and secrets**
+  - **8.8 Decentralize trust with threshold cryptography**
+  - **Summary**
+  - **Diceware / passphrase entropy**
+  - **[Unity] Procedural Planets (E04: multiple noise filters)**
+    - [[Unity] Procedural Planets (E04: multiple noise filters)](https://www.youtube.com/watch?v=H4g-TC__cvg) — `sebastian_lague`
+  - **[Unity] Procedural Planets (E03: layered noise)**
+    - [[Unity] Procedural Planets (E03: layered noise)](https://www.youtube.com/watch?v=uY9PAcNMu8s) — `sebastian_lague`
+  - **Procedural Landmass Generation (E02: Noise Map)**
+    - [Procedural Landmass Generation (E02: Noise Map)](https://www.youtube.com/watch?v=WP-Bm65Q-1Y) — `sebastian_lague`
+  - **Unity Create a Game Series (E13. random spawning)**
+    - [Unity Create a Game Series (E13. random spawning)](https://www.youtube.com/watch?v=vOC3usydLeE) — `sebastian_lague`
+  - **52-Card Perfect Shuffles**
+    - [52-Card Perfect Shuffles - Numberphile](https://www.youtube.com/watch?v=Y2lXsxmBx7E) — `numberphile`
+  - **Looking at Perfect Shuffles**
+    - [Looking at Perfect Shuffles - Numberphile](https://www.youtube.com/watch?v=OfEv5ZdSrhY) — `numberphile`
+- **Part 2. Protocols: The recipes of cryptography**
+- **9 Secure transport**
+  - [How Secure Shell Works (SSH) - Computerphile](https://www.youtube.com/watch?v=ORcvSkgdA58) — `computerphile`
+  - [Secure Web Browsing - Computerphile](https://www.youtube.com/watch?v=E_wX40fQwEA) — `computerphile`
+  - [TLS Handshake Explained - Computerphile](https://www.youtube.com/watch?v=86cQJ0MMses) — `computerphile`
+  - [Taming Kerberos - Computerphile](https://www.youtube.com/watch?v=qW361k3-BtU) — `computerphile`
+  - [Transport Layer Security (TLS) - Computerphile](https://www.youtube.com/watch?v=0TLDTodL7Lc) — `computerphile`
+  - [VPN & Remote Working - Computerphile](https://www.youtube.com/watch?v=1mtSNVdC7tM) — `computerphile`
+  - **9.1 The SSL and TLS secure transport protocols**
+    - **9.1.1 From SSL to TLS**
+    - **9.1.2 Using TLS in practice**
+    - **threat model for network protocols**
+  - **9.2 How does the TLS protocol work?**
+    - **9.2.1 The TLS handshake**
+    - **9.2.2 How TLS 1.3 encrypts application data**
+      - [How WanaCrypt Encrypts Your Files - Computerphile](https://www.youtube.com/watch?v=pLluFxHrc30) — `computerphile`
+    - **TLS 1.3 handshake**
+    - **TLS 1.2 legacy**
+    - **cipher suites**
+  - **9.3 The state of the encrypted web today**
+    - **X.509 certificates**
+      - [Tri-state logic: Connecting multiple outputs together - 8 bit register - Part 2](https://www.youtube.com/watch?v=faAjse109Q8) — `ben_eater`
+    - **certificate authorities**
+    - **revocation (CRL/OCSP)**
+    - **Certificate Transparency**
+  - **9.4 Other secure transport protocols**
+    - **Noise Framework**
+    - **WireGuard**
+  - **9.5 The Noise protocol framework: A modern alternative to TLS**
+    - **9.5.1 The many handshakes of Noise**
+    - **9.5.2 A handshake with Noise**
+  - **Summary**
+  - **HTTPS**
+  - **certificate pinning (historical note)**
+- **10 End-to-end encryption**
+  - [End to End Encryption (E2EE) - Computerphile](https://www.youtube.com/watch?v=jkV1KEJGKRA) — `computerphile`
+  - **10.1 Why end-to-end encryption?**
+  - **10.2 A root of trust nowhere to be found**
+    - **email encryption history**
+  - **10.3 The failure of encrypted email**
+    - **10.3.1 PGP or GPG? And how does it work?**
+    - **10.3.2 Scaling trust between users with the web of trust**
+      - [Nonsquare matrices as transformations between dimensions | Chapter 8, Essence of linear algebra](https://www.youtube.com/watch?v=v8VSDg_WQlA) — `3blue1brown`
+      - [Gaps between Primes (extra footage) - Numberphile](https://www.youtube.com/watch?v=D4_sNKoO-RA) — `numberphile`
+      - [Gaps between Primes - Numberphile](https://www.youtube.com/watch?v=vkMXdShDdtY) — `numberphile`
+      - [Large Gaps between Primes - Numberphile](https://www.youtube.com/watch?v=BH1GMGDYndo) — `numberphile`
+      - [The Biggest Gaps Between Primes - Numberphile](https://www.youtube.com/watch?v=oax6t6Of2WY) — `numberphile`
+    - **10.3.3 Key discovery is a real issue**
+      - [The Golden Key: FBI vs Apple iPhone - Computerphile](https://www.youtube.com/watch?v=6RNKtwAGvqc) — `computerphile`
+    - **10.3.4 If not PGP, then what?**
+    - **web of trust problems**
+    - **key discovery**
+  - **10.4 Secure messaging: A modern look at end-to-end encryption with Signal**
+    - **10.4.1 More user-friendly than the WOT: Trust but verify**
+    - **10.4.2 X3DH: the Signal protocol’s handshake**
+      - **X3DH details**
+        - [8-bit CPU control signal overview](https://www.youtube.com/watch?v=AwUirxi9eBg) — `ben_eater`
+        - [Dividing a signal by counting: Breadboard clock part 3](https://www.youtube.com/watch?v=gnmrKDpTM7o) — `ben_eater`
+        - [More details about the World's Biggest Prime](https://www.youtube.com/watch?v=jNXAMBvYe-Y) — `numberphile2`
+    - **10.4.3 Double Ratchet: Signal’s post-handshake protocol**
+      - [Double Ratchet Messaging Encryption - Computerphile](https://www.youtube.com/watch?v=9sO2qdTci-s) — `computerphile`
+      - **Double Ratchet details**
+      - **forward secrecy**
+      - **post-compromise security**
+        - [Encryption and Security Agencies - Computerphile](https://www.youtube.com/watch?v=sWeVOXpTOhk) — `computerphile`
+  - **10.5 The state of end-to-end encryption**
+  - **Summary**
+  - **forward secrecy**
+  - **deniability**
+- **11 User authentication**
+  - **11.1 A recap of authentication**
+  - **11.2 User authentication, or the quest to get rid of passwords**
+    - **11.2.1 One password to rule them all: Single sign-on (SSO) and password managers**
+      - **SSO**
+      - **password managers**
+    - **11.2.2 Don’t want to see their passwords? Use an asymmetric password-authenticated key exchange**
+      - **asymmetric PAKE**
+    - **11.2.3 One-time passwords aren’t really passwords: Going passwordless with symmetric keys**
+      - **HOTP**
+      - **TOTP**
+    - **11.2.4 Replacing passwords with asymmetric keys**
+      - **WebAuthn / FIDO / passkeys**
+  - **11.3 User-aided authentication: Pairing devices using some human help**
+    - **11.3.1 Pre-shared keys**
+    - **11.3.2 Symmetric password-authenticated key exchanges with CPace**
+      - **CPace**
+    - **11.3.3 Was my key exchange MITM’d? Just check a short authenticated string (SAS)**
+      - **SAS (short authenticated string)**
+  - **Summary**
+- **12 Crypto as in cryptocurrency?**
+  - [Alternative Uses for Blockchain - Computerphile](https://www.youtube.com/watch?v=qBAOsB6ETrY) — `computerphile`
+  - [Bitcoin Mining in 4 Minutes - Computerphile](https://www.youtube.com/watch?v=wTC31ZI6QM4) — `computerphile`
+  - [Bitcoin Power Problem - Computerphile](https://www.youtube.com/watch?v=eq96L30SK6I) — `computerphile`
+  - [Bitcoin Problems - Computerphile](https://www.youtube.com/watch?v=s2XHyzPA9Zc) — `computerphile`
+  - [Bitcoin, Blockchain Forks & Lightning - Computerphile](https://www.youtube.com/watch?v=8uF7RVF2osk) — `computerphile`
+  - [Crypto-jacking - Computerphile](https://www.youtube.com/watch?v=vMIZKtVruH8) — `computerphile`
+  - [How Bitcoin Works - Computerphile](https://www.youtube.com/watch?v=JyxRH18YlpA) — `computerphile`
+  - [Inside a Crypto-Mining Operation - Computerphile](https://www.youtube.com/watch?v=Dx7KvlrpZps) — `computerphile`
+  - [Scaling Blockchains - Computerphile](https://www.youtube.com/watch?v=4CdO0olVfAA) — `computerphile`
+  - [Stolen Bitcoin Tracing - Computerphile](https://www.youtube.com/watch?v=UlLN0QERWBs) — `computerphile`
+  - [The Blockchain & Bitcoin - Computerphile](https://www.youtube.com/watch?v=qcuc3rgwZAE) — `computerphile`
+  - [Why Bitcoin is Not Cash - Computerphile](https://www.youtube.com/watch?v=p9HH_dFcoLc) — `computerphile`
+  - **12.1 A gentle introduction to Byzantine fault-tolerant (BFT) consensus algorithms**
+    - **12.1.1 A problem of resilience: Distributed protocols to the rescue**
+    - **12.1.2 A problem of trust? Decentralization helps**
+    - **12.1.3 A problem of scale: Permissionless and censorship-resistant networks**
+  - **12.2 How does Bitcoin work?**
+    - **12.2.1 How Bitcoin handles user balances and transactions**
+    - **12.2.2 Mining BTCs in the digital age of gold**
+      - **proof of work**
+      - **difficulty adjustment**
+    - **12.2.3 Forking hell! Solving conflicts in mining**
+      - **fork choice**
+    - **12.2.4 Reducing a block’s size by using Merkle trees**
+      - **Merkle trees**
+      - **Merkle proofs**
+  - **12.3 A tour of cryptocurrencies**
+    - **12.3.1 Volatility**
+    - **12.3.2 Latency**
+    - **12.3.3 Blockchain size**
+    - **12.3.4 Confidentiality**
+    - **12.3.5 Energy efficiency**
+  - **12.4 DiemBFT: A Byzantine fault-tolerant (BFT) consensus protocol**
+    - **12.4.1 Safety and liveness: The two properties of a BFT consensus protocol**
+    - **12.4.2 A round in the DiemBFT protocol**
+    - **12.4.3 How much dishonesty can the protocol tolerate?**
+    - **12.4.4 The DiemBFT rules of voting**
+    - **12.4.5 When are transactions considered finalized?**
+    - **12.4.6 The intuitions behind the safety of DiemBFT**
+    - **safety vs liveness**
+  - **Summary**
+  - **SPV / light clients**
+    - [Cross products in the light of linear transformations | Chapter 11, Essence of linear algebra](https://www.youtube.com/watch?v=BaM7OCEm3G0) — `3blue1brown`
+  - **Wana Decrypt0r (Wanacry Ransomware)**
+    - [Wana Decrypt0r (Wanacry Ransomware) - Computerphile](https://www.youtube.com/watch?v=88jkB1V6N9w) — `computerphile`
+- **13 Hardware cryptography**
+  - [EXTRA BITS - Data Security and Flash Memory - Computerphile](https://www.youtube.com/watch?v=HQWFCDN9VZI) — `computerphile`
+  - [Security of Data on Disk - Computerphile](https://www.youtube.com/watch?v=4SSSMi4X_mA) — `computerphile`
+  - **13.1 Modern cryptography attacker model**
+  - **13.2 Untrusted environments: Hardware to the rescue**
+    - **13.2.1 White box cryptography, a bad idea**
+    - **13.2.2 They’re in your wallet: Smart cards and secure elements**
+      - **smart cards**
+        - [Hardware build: CRC calculation](https://www.youtube.com/watch?v=sNkERQlK8j8) — `ben_eater`
+        - [Dealing Cards with Cryptography (with Ron Rivest) - Numberphile](https://www.youtube.com/watch?v=mthPiiCS24A) — `numberphile`
+      - **secure elements**
+    - **13.2.3 Banks love them: Hardware security modules (HSMs)**
+      - **HSMs**
+    - **13.2.4 Trusted Platform Modules (TPMs): A useful standardization of secure elements**
+      - **TPMs**
+        - [Why Laplace transforms are so useful](https://www.youtube.com/watch?v=FE-hM1kRK4Y) — `3blue1brown`
+    - **13.2.5 Confidential computing with a trusted execution environment (TEE)**
+      - **TEEs (SGX / TrustZone)**
+        - [A quick trick for computing eigenvalues | Chapter 15, Essence of linear algebra](https://www.youtube.com/watch?v=e50Bj7jn9IQ) — `3blue1brown`
+  - **13.3 What solution is good for me?**
+  - **13.4 Leakage-resilient cryptography or how to mitigate side-channel attacks in software**
+    - **13.4.1 Constant-time programming**
+      - **constant-time code**
+        - [Fixing a hardware bug in software (65C51 UART)](https://www.youtube.com/watch?v=CnA8nG3zYHw) — `ben_eater`
+        - [Programming Fibonacci on a breadboard computer](https://www.youtube.com/watch?v=a73ZXDJtU48) — `ben_eater`
+        - [Programming my 8-bit breadboard computer](https://www.youtube.com/watch?v=9PPrrSyubG0) — `ben_eater`
+        - [Running Apple 1 software on a breadboard computer (Wozmon)](https://www.youtube.com/watch?v=HlLCtjJzHVI) — `ben_eater`
+    - **13.4.2 Don’t use the secret! Masking and blinding**
+      - **masking**
+      - **blinding**
+    - **13.4.3 What about fault attacks?**
+      - **fault attacks**
+  - **Summary**
+- **14 Post-quantum cryptography**
+  - [Post Quantum Cryptography - Computerphile](https://www.youtube.com/watch?v=_MoRcYLN-7U) — `computerphile`
+  - [Shor's Algorithm for Quantum Computing - Computerphile](https://www.youtube.com/watch?v=k_kyepATqB8) — `computerphile`
+  - [Mathematics is all about SHORTCUTS - Numberphile](https://www.youtube.com/watch?v=BdEWCxt8C0M) — `numberphile`
+  - [The Shortest Ever Papers - Numberphile](https://www.youtube.com/watch?v=QvvkJT8myeI) — `numberphile`
+  - [Numberphile Live (short clip)](https://www.youtube.com/watch?v=ZuJfcyA9T84) — `numberphile2`
+  - **14.1 What are quantum computers and why are they scaring cryptographers?**
+    - [Current State of Quantum Computing - Computerphile](https://www.youtube.com/watch?v=PN7mPYcWFKg) — `computerphile`
+    - [Quantum Computing 'Magic' - Computerphile](https://www.youtube.com/watch?v=BYx04e35Xso) — `computerphile`
+    - [Quantum Computing in Reality (Pt3: Beyond the Hype) - Computerphile](https://www.youtube.com/watch?v=gH_rF9LLzFA) — `computerphile`
+    - [Quantum Simulation & Nature - Computerphile](https://www.youtube.com/watch?v=pg7fntKLNak) — `computerphile`
+    - [Software Engineering for Quantum Computing - Computerphile](https://www.youtube.com/watch?v=l909v-D8Z0s) — `computerphile`
+    - [Superposition in Quantum Computers - Computerphile](https://www.youtube.com/watch?v=kv-YXKRUheQ) — `computerphile`
+    - [But what is quantum computing?  (Grover's Algorithm)](https://www.youtube.com/watch?v=RQWpF2Gb-gU) — `3blue1brown`
+    - [Some light quantum mechanics (with minutephysics)](https://www.youtube.com/watch?v=MzRCDLre1b4) — `3blue1brown`
+    - [Quantum Computing and Other Extras (with Ron Rivest) - Numberphile](https://www.youtube.com/watch?v=tX7e7CgWrvM) — `numberphile2`
+    - **14.1.1 Quantum mechanics, the study of the small**
+    - **14.1.2 From the birth of quantum computers to quantum supremacy**
+    - **14.1.3 The impact of Grover and Shor’s algorithms on cryptography**
+      - **Shor's algorithm**
+        - [Where my explanation of Grover’s algorithm failed](https://www.youtube.com/watch?v=Dlsa9EBKDGI) — `3blue1brown`
+        - [Learn how computers add numbers and build a 4 bit adder circuit](https://www.youtube.com/watch?v=wvJc9CZcvBc) — `ben_eater`
+      - **Grover's algorithm**
+    - **14.1.4 Post-quantum cryptography, the defense against quantum computers**
+      - **NIST PQC process**
+  - **14.2 Hash-based signatures: Don’t need anything but a hash function**
+    - **14.2.1 One-time signatures (OTS) with Lamport signatures**
+      - **Lamport signatures**
+    - **14.2.2 Smaller keys with Winternitz one-time signatures (WOTS)**
+      - **Winternitz OTS**
+    - **14.2.3 Many-times signatures with XMSS and SPHINCS+**
+      - **XMSS**
+      - **SPHINCS+**
+  - **14.3 Shorter keys and signatures with lattice-based cryptography**
+    - **14.3.1 What’s a lattice?**
+      - **lattices**
+    - **14.3.2 Learning with errors (LWE), a basis for cryptography?**
+      - **LWE**
+        - [Attention in transformers, step-by-step | Deep Learning Chapter 6](https://www.youtube.com/watch?v=eMlx5fFNoYc) — `3blue1brown`
+        - [Transformers, the tech behind LLMs | Deep Learning Chapter 5](https://www.youtube.com/watch?v=wjZofJX0v4M) — `3blue1brown`
+    - **14.3.3 Kyber, a lattice-based key exchange**
+      - **Kyber / ML-KEM**
+    - **14.3.4 Dilithium, a lattice-based signature scheme**
+      - **Dilithium / ML-DSA**
+  - **14.4 Do I need to panic?**
+  - **Summary**
+  - **harvest-now-decrypt-later**
+- **15 Is this it? Next-generation cryptography**
+  - **15.1 The more the merrier: Secure multi-party computation (MPC)**
+    - **15.1.1 Private set intersection (PSI)**
+      - **private set intersection**
+    - **15.1.2 General-purpose MPC**
+      - **garbled circuits / secret sharing (overview)**
+        - [The more general uncertainty principle, regarding Fourier transforms](https://www.youtube.com/watch?v=MBnnXbOM5S4) — `3blue1brown`
+    - **15.1.3 The state of MPC**
+  - **15.2 Fully homomorphic encryption (FHE) and the promises of an encrypted cloud**
+    - **15.2.1 An example of homomorphic encryption with RSA encryption**
+    - **15.2.2 The different types of homomorphic encryption**
+    - **15.2.3 Bootstrapping, the key to fully homomorphic encryption**
+      - **bootstrapping**
+        - [Was YOUR vote counted? (feat. homomorphic encryption) - Numberphile](https://www.youtube.com/watch?v=BYRTvoZ3Rho) — `numberphile`
+    - **15.2.4 An FHE scheme based on the learning with errors problem**
+      - **LWE-based FHE**
+    - **15.2.5 Where is it used?**
+  - **15.3 General-purpose zero-knowledge proofs (ZKPs)**
+    - **15.3.1 How zk-SNARKs work**
+      - **zk-SNARKs**
+    - **15.3.2 Homomorphic commitments to hide parts of the proof**
+    - **15.3.3 Bilinear pairings to improve our homomorphic commitments**
+      - **bilinear pairings**
+    - **15.3.4 Where does the succinctness come from?**
+    - **15.3.5 From programs to polynomials**
+    - **15.3.6 Programs are for computers; we need arithmetic circuits instead**
+      - **arithmetic circuits**
+    - **15.3.7 An arithmetic circuit to a rank-1 constraint system (R1CS)**
+      - **R1CS**
+        - [8-bit CPU reset circuit and power supply tips](https://www.youtube.com/watch?v=HtFro0UKqkk) — `ben_eater`
+    - **15.3.8 From R1CS to a polynomial**
+    - **15.3.9 It takes two to evaluate a polynomial hiding in the exponent**
+  - **Summary**
+  - **zk-STARKs (related landscape)**
+- **16 When and where cryptography fails**
+  - [Secrets Hidden in Images (Steganography) - Computerphile](https://www.youtube.com/watch?v=TWEXCYQKyDc) — `computerphile`
+  - **16.1 Finding the right cryptographic primitive or protocol is a boring job**
+  - **16.2 How do I use a cryptographic primitive or protocol? Polite standards and formal verification**
+    - **formal verification**
+      - [Primes and Primitive Sets (an Erdős Conjecture is cracked) - Numberphile](https://www.youtube.com/watch?v=33YSWaR3kAQ) — `numberphile`
+  - **16.3 Where are the good libraries?**
+  - **16.4 Misusing cryptography: Developers are the enemy**
+    - **API misuse**
+  - **16.5 You’re doing it wrong: Usable security**
+    - [How GCHQ Classifies Computer Security - Computerphile](https://www.youtube.com/watch?v=iesgXoOBLZM) — `computerphile`
+  - **16.6 Cryptography is not an island**
+  - **16.7 Your responsibilities as a cryptography practitioner, don’t roll your own crypto**
+    - **don't roll your own crypto**
+  - **Summary**
+
+## Appendix: In-scope video index by channel
+
+### computerphile (85)
+- [128 Bit or 256 Bit Encryption? - Computerphile](https://www.youtube.com/watch?v=pgzWxOtk1zg)
+- [2FA: Two Factor Authentication - Computerphile](https://www.youtube.com/watch?v=ZXFYT-BG2So)
+- [AES Explained (Advanced Encryption Standard) - Computerphile](https://www.youtube.com/watch?v=O4xNJsjtN6E)
+- [AES GCM (Advanced Encryption Standard in Galois Counter Mode) - Computerphile](https://www.youtube.com/watch?v=-fpVv_T4xwA)
+- [Almost All Web Encryption Works Like This (SP Networks) - Computerphile](https://www.youtube.com/watch?v=DLjzI5dX8jc)
+- [Alternative Uses for Blockchain - Computerphile](https://www.youtube.com/watch?v=qBAOsB6ETrY)
+- [Bitcoin Mining in 4 Minutes - Computerphile](https://www.youtube.com/watch?v=wTC31ZI6QM4)
+- [Bitcoin Power Problem - Computerphile](https://www.youtube.com/watch?v=eq96L30SK6I)
+- [Bitcoin Problems - Computerphile](https://www.youtube.com/watch?v=s2XHyzPA9Zc)
+- [Bitcoin, Blockchain Forks & Lightning - Computerphile](https://www.youtube.com/watch?v=8uF7RVF2osk)
+- [Breaking RSA - Computerphile](https://www.youtube.com/watch?v=-ShwJqAalOk)
+- [Chacha Cipher - Computerphile](https://www.youtube.com/watch?v=UeIpq-C-GSA)
+- [Coding a SHA2 Length Extension Attack - Computerphile](https://www.youtube.com/watch?v=XQo6rLdFlCg)
+- [Colossus & Bletchley Park - Computerphile](https://www.youtube.com/watch?v=9HH-asvLAj4)
+- [Cookie Stealing - Computerphile](https://www.youtube.com/watch?v=T1QEs3mdJoc)
+- [Could We Ban Encryption? - Computerphile](https://www.youtube.com/watch?v=ShUyfk4QB-8)
+- [Cracking Enigma in 2021 - Computerphile](https://www.youtube.com/watch?v=RzWB5jL5RX0)
+- [Crypto-jacking - Computerphile](https://www.youtube.com/watch?v=vMIZKtVruH8)
+- [Current State of Quantum Computing - Computerphile](https://www.youtube.com/watch?v=PN7mPYcWFKg)
+- [Diceware & Passwords - Computerphile](https://www.youtube.com/watch?v=Pe_3cFuSw1E)
+- [Diffie Hellman -the Mathematics bit- Computerphile](https://www.youtube.com/watch?v=Yjrfm_oRO0w)
+- [Double Ratchet Messaging Encryption - Computerphile](https://www.youtube.com/watch?v=9sO2qdTci-s)
+- [Elliptic Curve Back Door - Computerphile](https://www.youtube.com/watch?v=nybVFJVXbww)
+- [Elliptic Curves - Computerphile](https://www.youtube.com/watch?v=NF1pwjL9-DE)
+- [Encryption & Entropy - Computerphile](https://www.youtube.com/watch?v=8VSuwDG4bhw)
+- [Encryption and Security Agencies - Computerphile](https://www.youtube.com/watch?v=sWeVOXpTOhk)
+- [End to End Encryption (E2EE) - Computerphile](https://www.youtube.com/watch?v=jkV1KEJGKRA)
+- [Enigma, TypeX and Dad - Computerphile](https://www.youtube.com/watch?v=jvKdOEHkrJc)
+- [EXTRA BITS - Data Security and Flash Memory - Computerphile](https://www.youtube.com/watch?v=HQWFCDN9VZI)
+- [EXTRA BITS - Follow the Cookie Trail - Computerphile](https://www.youtube.com/watch?v=_d0G6FZ_kR4)
+- [Feistel Cipher - Computerphile](https://www.youtube.com/watch?v=FGhj3CGxl8I)
+- [Fishy Codes: Bletchley's Other Secret - Computerphile](https://www.youtube.com/watch?v=Ou_9ntYRzzw)
+- [Follow the Cookie Trail - Computerphile](https://www.youtube.com/watch?v=LHSSY8QNvew)
+- [Hash Collisions & The Birthday Paradox - Computerphile](https://www.youtube.com/watch?v=jsraR-el8_o)
+- [Hashing Algorithms and Security - Computerphile](https://www.youtube.com/watch?v=b4b8ktEV4Bg)
+- [How Bitcoin Works - Computerphile](https://www.youtube.com/watch?v=JyxRH18YlpA)
+- [How GCHQ Classifies Computer Security - Computerphile](https://www.youtube.com/watch?v=iesgXoOBLZM)
+- [How NOT to Store Passwords! - Computerphile](https://www.youtube.com/watch?v=8ZtInClXe1Q)
+- [How Password Managers Work - Computerphile](https://www.youtube.com/watch?v=w68BBPDAWr8)
+- [How Secure Shell Works (SSH) - Computerphile](https://www.youtube.com/watch?v=ORcvSkgdA58)
+- [How to Choose a Password - Computerphile](https://www.youtube.com/watch?v=3NjQ9b3pgIg)
+- [How TOR Works- Computerphile](https://www.youtube.com/watch?v=QRYzre4bf7I)
+- [How WanaCrypt Encrypts Your Files - Computerphile](https://www.youtube.com/watch?v=pLluFxHrc30)
+- [Inside a Crypto-Mining Operation - Computerphile](https://www.youtube.com/watch?v=Dx7KvlrpZps)
+- [Key Exchange Problems - Computerphile](https://www.youtube.com/watch?v=vsXMMT2CqqE)
+- [Malleable Encryption - Computerphile](https://www.youtube.com/watch?v=40xanXXsw24)
+- [Modes of Operation - Computerphile](https://www.youtube.com/watch?v=Rk0NIQfEXBA)
+- [One Encryption Standard to Rule Them All! - Computerphile](https://www.youtube.com/watch?v=VYech-c5Dic)
+- [Password Cracking - Computerphile](https://www.youtube.com/watch?v=7U-RbOKanYs)
+- [Post Quantum Cryptography - Computerphile](https://www.youtube.com/watch?v=_MoRcYLN-7U)
+- [Prime Numbers & RSA Encryption Algorithm - Computerphile](https://www.youtube.com/watch?v=JD72Ry60eP4)
+- [Public Key Cryptography - Computerphile](https://www.youtube.com/watch?v=GSIDS_lvRv4)
+- [Quantum Computing 'Magic' - Computerphile](https://www.youtube.com/watch?v=BYx04e35Xso)
+- [Quantum Computing in Reality (Pt3: Beyond the Hype) - Computerphile](https://www.youtube.com/watch?v=gH_rF9LLzFA)
+- [Quantum Simulation & Nature - Computerphile](https://www.youtube.com/watch?v=pg7fntKLNak)
+- [Random Numbers with LFSR (Linear Feedback Shift Register) - Computerphile](https://www.youtube.com/watch?v=Ks1pw1X22y4)
+- [Saving Bletchley Park - Computerphile](https://www.youtube.com/watch?v=YCuyt4_uEUY)
+- [Scaling Blockchains - Computerphile](https://www.youtube.com/watch?v=4CdO0olVfAA)
+- [Secret Key Exchange (Diffie-Hellman) - Computerphile](https://www.youtube.com/watch?v=NmM9HA2MQGI)
+- [Secrets Hidden in Images (Steganography) - Computerphile](https://www.youtube.com/watch?v=TWEXCYQKyDc)
+- [Secure Web Browsing - Computerphile](https://www.youtube.com/watch?v=E_wX40fQwEA)
+- [Securing Stream Ciphers (HMAC) - Computerphile](https://www.youtube.com/watch?v=wlSG3pEiQdc)
+- [Security of Data on Disk - Computerphile](https://www.youtube.com/watch?v=4SSSMi4X_mA)
+- [SHA2 Fatal Flaw? (Hash Length Extension Attack) - Computerphile](https://www.youtube.com/watch?v=gOIBUe1fjX0)
+- [SHA: Secure Hashing Algorithm - Computerphile](https://www.youtube.com/watch?v=DMtFhACPnTY)
+- [Shor's Algorithm for Quantum Computing - Computerphile](https://www.youtube.com/watch?v=k_kyepATqB8)
+- [Software Engineering for Quantum Computing - Computerphile](https://www.youtube.com/watch?v=l909v-D8Z0s)
+- [Stolen Bitcoin Tracing - Computerphile](https://www.youtube.com/watch?v=UlLN0QERWBs)
+- [Superposition in Quantum Computers - Computerphile](https://www.youtube.com/watch?v=kv-YXKRUheQ)
+- [Tackling Enigma (Turing's Enigma Problem Part 2) - Computerphile](https://www.youtube.com/watch?v=kj_7Jc1mS9k)
+- [Taming Kerberos - Computerphile](https://www.youtube.com/watch?v=qW361k3-BtU)
+- [The Blockchain & Bitcoin - Computerphile](https://www.youtube.com/watch?v=qcuc3rgwZAE)
+- [The Golden Key: FBI vs Apple iPhone - Computerphile](https://www.youtube.com/watch?v=6RNKtwAGvqc)
+- [The Next Big SHA? SHA3 Sponge Function Explained - Computerphile](https://www.youtube.com/watch?v=fzlflyw7X2I)
+- [TLS Handshake Explained - Computerphile](https://www.youtube.com/watch?v=86cQJ0MMses)
+- [TOR Hidden Services - Computerphile](https://www.youtube.com/watch?v=lVcbq_a5N9I)
+- [Transport Layer Security (TLS) - Computerphile](https://www.youtube.com/watch?v=0TLDTodL7Lc)
+- [True Random Numbers - Computerphile](https://www.youtube.com/watch?v=aEJB8IAMMpA)
+- [Turing's Enigma Problem (Part 1) - Computerphile](https://www.youtube.com/watch?v=d2NWPG2gB_A)
+- [VPN & Remote Working - Computerphile](https://www.youtube.com/watch?v=1mtSNVdC7tM)
+- [Wana Decrypt0r (Wanacry Ransomware) - Computerphile](https://www.youtube.com/watch?v=88jkB1V6N9w)
+- [What are Digital Signatures? - Computerphile](https://www.youtube.com/watch?v=s22eJ1eVLTU)
+- [Why Bitcoin is Not Cash - Computerphile](https://www.youtube.com/watch?v=p9HH_dFcoLc)
+- [Zero Knowledge Proofs - Computerphile](https://www.youtube.com/watch?v=HUs1bH85X9I)
+- [Zig Zag Decryption - Computerphile](https://www.youtube.com/watch?v=yxx3Bkmv3ck)
+
+### 3blue1brown (52)
+- [A quick trick for computing eigenvalues | Chapter 15, Essence of linear algebra](https://www.youtube.com/watch?v=e50Bj7jn9IQ)
+- [Abstract vector spaces | Chapter 16, Essence of linear algebra](https://www.youtube.com/watch?v=TgKwz5Ikpc8)
+- [Attention in transformers, step-by-step | Deep Learning Chapter 6](https://www.youtube.com/watch?v=eMlx5fFNoYc)
+- [Bayes theorem, the geometry of changing beliefs](https://www.youtube.com/watch?v=HZGCoVF3YvM)
+- [But what is a convolution?](https://www.youtube.com/watch?v=KuXjwB4LzSA)
+- [But what is a Fourier series?  From heat flow to drawing with circles | DE4](https://www.youtube.com/watch?v=r6sGWTCMz2k)
+- [But what is a Laplace Transform?](https://www.youtube.com/watch?v=j0wJBEZdwLs)
+- [But what is cross-entropy? | Compression is Intelligence Part 2](https://www.youtube.com/watch?v=GlYgs6v2YfU)
+- [But what is quantum computing?  (Grover's Algorithm)](https://www.youtube.com/watch?v=RQWpF2Gb-gU)
+- [But what is the Fourier Transform?  A visual introduction.](https://www.youtube.com/watch?v=spUNpyF58BY)
+- [Change of basis | Chapter 13, Essence of linear algebra](https://www.youtube.com/watch?v=P2LTAUO1TdA)
+- [Convolutions | Why X+Y in probability is a beautiful mess](https://www.youtube.com/watch?v=IaSGqQa5O-M)
+- [Cramer's rule, explained geometrically | Chapter 12, Essence of linear algebra](https://www.youtube.com/watch?v=jBsC34PxzoM)
+- [Cross products in the light of linear transformations | Chapter 11, Essence of linear algebra](https://www.youtube.com/watch?v=BaM7OCEm3G0)
+- [Cross products | Chapter 10, Essence of linear algebra](https://www.youtube.com/watch?v=eu6i7WJeinw)
+- [Dot products and duality | Chapter 9, Essence of linear algebra](https://www.youtube.com/watch?v=LyGKycYT2v0)
+- [Eigenvectors and eigenvalues | Chapter 14, Essence of linear algebra](https://www.youtube.com/watch?v=PFDu9oVAE-g)
+- [Essence of linear algebra preview](https://www.youtube.com/watch?v=kjBOesZCoqc)
+- [Euler's formula with introductory group theory](https://www.youtube.com/watch?v=mvmuCPvRoWQ)
+- [Group theory, abstraction, and the 196,883-dimensional monster](https://www.youtube.com/watch?v=mH0oCDa74tE)
+- [Hilbert's Curve: Is infinite math useful?](https://www.youtube.com/watch?v=3s7h2MHQtxc)
+- [How (and why) to raise e to the power of a matrix | DE6](https://www.youtube.com/watch?v=O85OWBJ2ayo)
+- [Inverse matrices, column space and null space | Chapter 7, Essence of linear algebra](https://www.youtube.com/watch?v=uQhTuRlWMxw)
+- [Linear combinations, span, and basis vectors | Chapter 2, Essence of linear algebra](https://www.youtube.com/watch?v=k7RM-ot2NWY)
+- [Linear transformations and matrices | Chapter 3, Essence of linear algebra](https://www.youtube.com/watch?v=kYB8IZa5AuE)
+- [Lockdown math announcement](https://www.youtube.com/watch?v=ppWPuXsnf1Q)
+- [Matrix multiplication as composition | Chapter 4, Essence of linear algebra](https://www.youtube.com/watch?v=XkY2DOUCWMU)
+- [Nonsquare matrices as transformations between dimensions | Chapter 8, Essence of linear algebra](https://www.youtube.com/watch?v=v8VSDg_WQlA)
+- [Pi hiding in prime regularities](https://www.youtube.com/watch?v=NaL_Cb42WyY)
+- [Pure Fourier series animation montage](https://www.youtube.com/watch?v=-qgreAUpPwM)
+- [Quaternions and 3d rotation, explained interactively](https://www.youtube.com/watch?v=zjMuIxRvygQ)
+- [Reinventing Entropy | Compression is Intelligence Part 1](https://www.youtube.com/watch?v=l6DKRf-fAAM)
+- [Solving Wordle using information theory](https://www.youtube.com/watch?v=v68zYyaEmEA)
+- [Some light quantum mechanics (with minutephysics)](https://www.youtube.com/watch?v=MzRCDLre1b4)
+- [Taylor series | Chapter 11, Essence of calculus](https://www.youtube.com/watch?v=3d6DsjIBzJ4)
+- [The determinant | Chapter 6, Essence of linear algebra](https://www.youtube.com/watch?v=Ip3X9LOh2dk)
+- [The DP-3T algorithm for contact tracing (with Nicky Case)](https://www.youtube.com/watch?v=D__UaR5MQao)
+- [The medical test paradox, and redesigning Bayes' rule](https://www.youtube.com/watch?v=lG4VkPoG3ko)
+- [The more general uncertainty principle, regarding Fourier transforms](https://www.youtube.com/watch?v=MBnnXbOM5S4)
+- [The Physics of Euler's Formula | Laplace Transform Prelude](https://www.youtube.com/watch?v=-j8PzkZ70Lg)
+- [The quick proof of Bayes' theorem](https://www.youtube.com/watch?v=U_85TaXbeIo)
+- [This open problem taught me what topology is](https://www.youtube.com/watch?v=IQqtsm-bBRU)
+- [Three-dimensional linear transformations | Chapter 5, Essence of linear algebra](https://www.youtube.com/watch?v=rHLEWRxRGiM)
+- [Transformers, the tech behind LLMs | Deep Learning Chapter 5](https://www.youtube.com/watch?v=wjZofJX0v4M)
+- [Using topology for discrete problems | The Borsuk-Ulam theorem and stolen necklaces](https://www.youtube.com/watch?v=yuVqxCSsE7c)
+- [Vectors | Chapter 1, Essence of linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs)
+- [Visualizing the 4d numbers Quaternions](https://www.youtube.com/watch?v=d4EgbgTm0Bg)
+- [Where my explanation of Grover’s algorithm failed](https://www.youtube.com/watch?v=Dlsa9EBKDGI)
+- [Who cares about topology?   (Old version)](https://www.youtube.com/watch?v=AmgkSdhK4K8)
+- [Why do prime numbers make these spirals? | Dirichlet’s theorem and pi approximations](https://www.youtube.com/watch?v=EK32jo7i5LQ)
+- [Why Laplace transforms are so useful](https://www.youtube.com/watch?v=FE-hM1kRK4Y)
+- [Why “probability of 0” does not mean “impossible” | Probabilities of probabilities, part 2](https://www.youtube.com/watch?v=ZA4JkHKZM50)
+
+### sebastian_lague (13)
+- [[Unity] Procedural Planets (E03: layered noise)](https://www.youtube.com/watch?v=uY9PAcNMu8s)
+- [[Unity] Procedural Planets (E04: multiple noise filters)](https://www.youtube.com/watch?v=H4g-TC__cvg)
+- [Coding Adventure: Chess](https://www.youtube.com/watch?v=U4ogK0MIzqk)
+- [Coding Adventure: Hydraulic Erosion](https://www.youtube.com/watch?v=eaXk97ujbPQ)
+- [Coding Adventure: Making a Better Chess Bot](https://www.youtube.com/watch?v=_vqlIPDR2TU)
+- [Coding Adventure: Marching Cubes](https://www.youtube.com/watch?v=M3iI2l0ltbE)
+- [Coding Adventure: Planetary Fluid Sim](https://www.youtube.com/watch?v=8nIB7e_eds4)
+- [Coding Adventure: Ray Marching](https://www.youtube.com/watch?v=Cp5WWtMoeKg)
+- [Coding Adventure: Rendering Fluids](https://www.youtube.com/watch?v=kOkfC5fLfgE)
+- [Coding Adventure: Simulating Fluids](https://www.youtube.com/watch?v=rSKMYc1CQHE)
+- [Coding Adventure: Sound (and the Fourier Transform)](https://www.youtube.com/watch?v=iA6wRgwl7k0)
+- [Procedural Landmass Generation (E02: Noise Map)](https://www.youtube.com/watch?v=WP-Bm65Q-1Y)
+- [Unity Create a Game Series (E13. random spawning)](https://www.youtube.com/watch?v=vOC3usydLeE)
+
+### ben_eater (73)
+- [6502 serial interface](https://www.youtube.com/watch?v=oLYLnb7kpLg)
+- [8-bit computer build: Connecting the bus](https://www.youtube.com/watch?v=-6JAgFWCL9w)
+- [8-bit computer RAM intro](https://www.youtube.com/watch?v=FnxPIZR1ybs)
+- [8-bit computer update](https://www.youtube.com/watch?v=HyznrdDSSGM)
+- [8-bit CPU control logic: Part 1](https://www.youtube.com/watch?v=dXdoim96v5A)
+- [8-bit CPU control logic: Part 2](https://www.youtube.com/watch?v=X7rCxs1ppyY)
+- [8-bit CPU control logic: Part 3](https://www.youtube.com/watch?v=dHWFpkGsxOs)
+- [8-bit CPU control signal overview](https://www.youtube.com/watch?v=AwUirxi9eBg)
+- [8-bit CPU reset circuit and power supply tips](https://www.youtube.com/watch?v=HtFro0UKqkk)
+- [A simple BIOS for my breadboard computer](https://www.youtube.com/watch?v=0q6Ujn_zNH8)
+- [Adapting WozMon for the breadboard 6502](https://www.youtube.com/watch?v=7M8LvMtdcgY)
+- [Adding more machine language instructions to the CPU](https://www.youtube.com/watch?v=FCscQGBIL-Y)
+- [ALU Design](https://www.youtube.com/watch?v=mOVOS9AjgFs)
+- [Assembly language vs. machine code — 6502 part 3](https://www.youtube.com/watch?v=oO8_2JJV0B4)
+- [Astable 555 timer - 8-bit computer clock - part 1](https://www.youtube.com/watch?v=kRlSFm519Bo)
+- [Bistable 555 - 8-bit computer clock - part 3](https://www.youtube.com/watch?v=WCwJNnx36Rk)
+- [Breadboarding tips](https://www.youtube.com/watch?v=PE-_rJqvDhQ)
+- [Build an 8-bit decimal display for our 8-bit computer](https://www.youtube.com/watch?v=dLh1n2dErzE)
+- [Build an Arduino EEPROM programmer](https://www.youtube.com/watch?v=K88pgWhEb1M)
+- [Building an 8-bit register - 8-bit register - Part 4](https://www.youtube.com/watch?v=CiMaWbz_6E8)
+- [Building the ALU](https://www.youtube.com/watch?v=S-3fXU3FZQc)
+- [Bus architecture and how register transfers work - 8 bit register - Part 1](https://www.youtube.com/watch?v=QzWW-CBugZo)
+- [Checksums and Hamming distance](https://www.youtube.com/watch?v=ppU41c15Xho)
+- [Clock logic - 8-bit computer clock - part 4](https://www.youtube.com/watch?v=SmQ5K7UQPMM)
+- [Clock synchronization and Manchester coding | Networking tutorial (3 of 13)](https://www.youtube.com/watch?v=8BhjXqw9MqI)
+- [Connecting an LCD to our computer — 6502 part 4](https://www.youtube.com/watch?v=FY3zTUaykVo)
+- [CPU flags register](https://www.youtube.com/watch?v=ObnosznZvHY)
+- [D flip-flop](https://www.youtube.com/watch?v=YW-_GkUguMM)
+- [Designing and building a 1-bit register - 8 bit register - Part 3](https://www.youtube.com/watch?v=-arYx_oVIj8)
+- [Dividing a signal by counting: Breadboard clock part 3](https://www.youtube.com/watch?v=gnmrKDpTM7o)
+- [Error detection: Parity checking](https://www.youtube.com/watch?v=MgkhrBSjhag)
+- [Fixing a hardware bug in software (65C51 UART)](https://www.youtube.com/watch?v=CnA8nG3zYHw)
+- [Frame formats | Networking tutorial (6 of 13)](https://www.youtube.com/watch?v=1XrRT0CmzYw)
+- [Hardware build: CRC calculation](https://www.youtube.com/watch?v=sNkERQlK8j8)
+- [How do CPUs read machine code? — 6502 part 2](https://www.youtube.com/watch?v=yl8vPW5hydQ)
+- [How do CRCs work?](https://www.youtube.com/watch?v=izG7qT0EpBw)
+- [JK flip-flop](https://www.youtube.com/watch?v=F1OC5e7Tn_o)
+- [JK flip-flop racing](https://www.youtube.com/watch?v=st3mUEub99E)
+- [Learn how computers add numbers and build a 4 bit adder circuit](https://www.youtube.com/watch?v=wvJc9CZcvBc)
+- [Let's build a digital clock!](https://www.youtube.com/watch?v=3XDH-fZKnQk)
+- [Making a square wave square: Breadboard clock part 2](https://www.youtube.com/watch?v=RT0mp4f4QIs)
+- [Making logic gates from transistors](https://www.youtube.com/watch?v=sTu3LwpF6XI)
+- [Master-slave JK flip-flop](https://www.youtube.com/watch?v=rXHSB5w7CyE)
+- [Monostable 555 timer - 8-bit computer clock - part 2](https://www.youtube.com/watch?v=81BgFhm2vz8)
+- [Program counter build](https://www.youtube.com/watch?v=tNwU7pK_3tk)
+- [Program counter design](https://www.youtube.com/watch?v=g_1HyxBzjl0)
+- [Programming Fibonacci on a breadboard computer](https://www.youtube.com/watch?v=a73ZXDJtU48)
+- [Programming my 8-bit breadboard computer](https://www.youtube.com/watch?v=9PPrrSyubG0)
+- [RAM and bus timing — 6502 part 6](https://www.youtube.com/watch?v=i_wrxBdXTgM)
+- [RAM module build - part 1](https://www.youtube.com/watch?v=uYXwCBo40iA)
+- [RAM module build - part 2](https://www.youtube.com/watch?v=KNve2LCcSRc)
+- [RAM module build - part 3](https://www.youtube.com/watch?v=5rl1tEFXKt0)
+- [RAM module testing and troubleshooting](https://www.youtube.com/watch?v=Vw3uDOUJRGw)
+- [Reprogramming CPU microcode with an Arduino](https://www.youtube.com/watch?v=JUVt_KYAp-I)
+- [RS232 interface with the 6551 UART](https://www.youtube.com/watch?v=zsERDRM1oy8)
+- [Running Apple 1 software on a breadboard computer (Wozmon)](https://www.youtube.com/watch?v=HlLCtjJzHVI)
+- [Running MSBASIC on my breadboard 6502 computer](https://www.youtube.com/watch?v=XlbPnihCM0E)
+- [Sound synth with a 6502](https://www.youtube.com/watch?v=jJi5EAWgyEM)
+- [SPI: The serial peripheral interface](https://www.youtube.com/watch?v=MCi7dCBhVpQ)
+- [Stepping through a program on the 8-bit breadboard computer](https://www.youtube.com/watch?v=35zLnS3fXeA)
+- [Subroutine calls, now with RAM — 6502 part 7](https://www.youtube.com/watch?v=omI0MrTWiMU)
+- [Testing our computer's registers - 8-bit register - Part 5](https://www.youtube.com/watch?v=9WE3Obdjtv0)
+- [Testing the computer's ALU](https://www.youtube.com/watch?v=4nCMDvnR2Fg)
+- [The importance of framing | Networking tutorial (5 of 13)](https://www.youtube.com/watch?v=xrVN9jKjIKQ)
+- [The SID: Classic 8-bit sound](https://www.youtube.com/watch?v=LSMQ3U1Thzw)
+- [Tri-state logic: Connecting multiple outputs together - 8 bit register - Part 2](https://www.youtube.com/watch?v=faAjse109Q8)
+- [Troubleshooting the ALU](https://www.youtube.com/watch?v=U7Q8-2YZTUU)
+- [Twos complement: Negative numbers in binary](https://www.youtube.com/watch?v=4qH4unVtJkE)
+- [Using an EEPROM to replace combinational logic](https://www.youtube.com/watch?v=BA12Z7gQ4P0)
+- [What is a stack and how does it work? — 6502 part 5](https://www.youtube.com/watch?v=xBjQVxVxOxc)
+- [What is error correction? Hamming codes in hardware](https://www.youtube.com/watch?v=h0jloehRKas)
+- [Why build an entire computer on breadboards?](https://www.youtube.com/watch?v=fCbAafKLqC8)
+- [“Hello, world” from scratch on a 6502 — Part 1](https://www.youtube.com/watch?v=LnzuMJLZRdU)
+
+### numberphile (72)
+- [1 is NOT Prime - Numberphile](https://www.youtube.com/watch?v=IQofiPqhJ_s)
+- [31 and Mersenne Primes - Numberphile](https://www.youtube.com/watch?v=PLL0mo5rHhk)
+- [5, 13 and 137 are Pythagorean Primes - Numberphile](https://www.youtube.com/watch?v=yu_aqA7mw7E)
+- [5040 and other Anti-Prime Numbers - Numberphile](https://www.youtube.com/watch?v=2JM2oImb9Qg)
+- [52-Card Perfect Shuffles - Numberphile](https://www.youtube.com/watch?v=Y2lXsxmBx7E)
+- [78557 and Proth Primes - Numberphile](https://www.youtube.com/watch?v=fcVjitaM3LY)
+- [A Miraculous Proof (Ptolemy's Theorem) - Numberphile](https://www.youtube.com/watch?v=bJOuzqu3MUQ)
+- [A Prime Surprise (Mertens Conjecture) - Numberphile](https://www.youtube.com/watch?v=uvMGZb0Suyc)
+- [A proof that e is irrational - Numberphile](https://www.youtube.com/watch?v=xOXsDfMMTjs)
+- [A Strange Map Projection (Euler Spiral) - Numberphile](https://www.youtube.com/watch?v=D3tdW9l1690)
+- [Absolute Primes - Numberphile](https://www.youtube.com/watch?v=cmJ18ViCUAI)
+- [Awesome Prime Number Constant (Mills' Constant) - Numberphile](https://www.youtube.com/watch?v=6ltrPVPEwfo)
+- [Awkward Primes - Numberphile](https://www.youtube.com/watch?v=VFoIPlUalRY)
+- [Card Flipping Proof - Numberphile](https://www.youtube.com/watch?v=CCxs-tu8tOU)
+- [Dealing Cards with Cryptography (with Ron Rivest) - Numberphile](https://www.youtube.com/watch?v=mthPiiCS24A)
+- [e (Euler's Number) - Numberphile](https://www.youtube.com/watch?v=AuA2EAgAegE)
+- [Encryption and HUGE numbers - Numberphile](https://www.youtube.com/watch?v=M7kEpw1tn50)
+- [Euler Squares - Numberphile](https://www.youtube.com/watch?v=qu04xLNrk94)
+- [Euler's Formula - Numberphile](https://www.youtube.com/watch?v=CRj-sbi2i2I)
+- [Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=qiNcEguuFSA)
+- [Finite Fields & Return of The Parker Square - Numberphile](https://www.youtube.com/watch?v=FCczHiXPVcA)
+- [Fool-Proof Test for Primes - Numberphile](https://www.youtube.com/watch?v=HvMSRWTE2mI)
+- [Gaps between Primes (extra footage) - Numberphile](https://www.youtube.com/watch?v=D4_sNKoO-RA)
+- [Gaps between Primes - Numberphile](https://www.youtube.com/watch?v=vkMXdShDdtY)
+- [Glitch Primes and Cyclops Numbers - Numberphile](https://www.youtube.com/watch?v=HPfAnX5blO0)
+- [Goldbach Conjecture (but with TWIN PRIMES)  - Numberphile](https://www.youtube.com/watch?v=Gojd8mTl3Do)
+- [Golden Proof - Numberphile](https://www.youtube.com/watch?v=dTWKKvlZB08)
+- [Homer Simpson vs Pierre de Fermat - Numberphile](https://www.youtube.com/watch?v=ReOQ300AcSU)
+- [How they found the World's Biggest Prime Number - Numberphile](https://www.youtube.com/watch?v=lEvXcTYqtKU)
+- [Infinite Primes - Numberphile](https://www.youtube.com/watch?v=ctC33JAV4FI)
+- [Large Gaps between Primes - Numberphile](https://www.youtube.com/watch?v=BH1GMGDYndo)
+- [Looking at Perfect Shuffles - Numberphile](https://www.youtube.com/watch?v=OfEv5ZdSrhY)
+- [Mathematics is all about SHORTCUTS - Numberphile](https://www.youtube.com/watch?v=BdEWCxt8C0M)
+- [Matrix Factorization - Numberphile](https://www.youtube.com/watch?v=wTUSz-HSaBg)
+- [Monster Group (John Conway) - Numberphile](https://www.youtube.com/watch?v=jsSeoGpiWsw)
+- [New Largest Known Prime Number - Numberphile](https://www.youtube.com/watch?v=QSEKzFGpCQs)
+- [New World's Biggest Prime Number (PRINTED FULLY ON PAPER) - Numberphile](https://www.youtube.com/watch?v=tlpYjrbujG0)
+- [Paterson Primes (with 3Blue1Brown) - Numberphile](https://www.youtube.com/watch?v=jhObLT1Lrfo)
+- [Perfect Number Proof - Numberphile](https://www.youtube.com/watch?v=q8n15q1v4Xo)
+- [Perfect Numbers and Mersenne Primes - Numberphile](https://www.youtube.com/watch?v=T0xKHwQH-4I)
+- [Prime Knots - Numberphile](https://www.youtube.com/watch?v=M-i9v9VfCrs)
+- [Prime Pyramid (with 3Blue1Brown) - Numberphile](https://www.youtube.com/watch?v=NsjsLwYRW8o)
+- [Prime Spirals - Numberphile](https://www.youtube.com/watch?v=iFuR97YcSLM)
+- [Primes and Primitive Sets (an Erdős Conjecture is cracked) - Numberphile](https://www.youtube.com/watch?v=33YSWaR3kAQ)
+- [Primes are like Weeds (PNT) - Numberphile](https://www.youtube.com/watch?v=l8ezziaEeNE)
+- [Primes on the Moon (Lunar Arithmetic) - Numberphile](https://www.youtube.com/watch?v=cZkGeR9CWbk)
+- [Primes without a 7 - Numberphile](https://www.youtube.com/watch?v=eeoBCS7IEqs)
+- [Randomness is Random - Numberphile](https://www.youtube.com/watch?v=tP-Ipsat90c)
+- [RSA-129 - Numberphile](https://www.youtube.com/watch?v=YQw124CtvO0)
+- [Schur Numbers (the world's biggest proof) - Numberphile](https://www.youtube.com/watch?v=57V8Ud7PL8k)
+- [Sexy Primes - Numberphile](https://www.youtube.com/watch?v=WJ12DYBuazY)
+- [Squaring Primes - Numberphile](https://www.youtube.com/watch?v=ZMkIiFs35HQ)
+- [Sum of Natural Numbers (second proof and extra footage)](https://www.youtube.com/watch?v=E-d9mgo8FGk)
+- [The Biggest Gaps Between Primes - Numberphile](https://www.youtube.com/watch?v=oax6t6Of2WY)
+- [The Bridges to Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=nUN4NDVIfVI)
+- [The Heart of Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=ua1K3Eo2PQc)
+- [The Last Digit of Prime Numbers - Numberphile](https://www.youtube.com/watch?v=YVvfY_lFUZ8)
+- [The Man Who Found the World's Biggest Prime - Numberphile](https://www.youtube.com/watch?v=Yp4ilFOtoeg)
+- [The Most Evil Number (Belphegor's Prime) - Numberphile](https://www.youtube.com/watch?v=zk_Q9y_LNzg)
+- [The Most Wanted Prime Number - Numberphile](https://www.youtube.com/watch?v=vKlVNFOHJ9I)
+- [The Plotting of Beautiful Curves (Euler Spirals and Sierpiński Triangles) - Numberphile](https://www.youtube.com/watch?v=kMBj2fp52tA)
+- [The Prime Constant - Numberphile](https://www.youtube.com/watch?v=c066hLi78B0)
+- [The Prime Number Race (with 3Blue1Brown) - Numberphile](https://www.youtube.com/watch?v=YAsHGOwB408)
+- [The Prime Problem with a One Sentence Proof - Numberphile](https://www.youtube.com/watch?v=SyJlRUBoVp0)
+- [The Reciprocals of Primes - Numberphile](https://www.youtube.com/watch?v=DmfxIhmGPP4)
+- [The Secret of the Raffle Function (epic proof) - Numberphile](https://www.youtube.com/watch?v=XhA5U9pFXuU)
+- [The Shortest Ever Papers - Numberphile](https://www.youtube.com/watch?v=QvvkJT8myeI)
+- [The Slightly Bungled Mersenne Prime Origin Story - Numberphile](https://www.youtube.com/watch?v=IFTBOUaUClE)
+- [The Trinity Hall Prime - Numberphile](https://www.youtube.com/watch?v=fQQ8IiTWHhg)
+- [Twin Prime Conjecture - Numberphile](https://www.youtube.com/watch?v=QKHKD8bRAro)
+- [Twin Proofs for Twin Primes - Numberphile](https://www.youtube.com/watch?v=n4gmYjyI3vo)
+- [Was YOUR vote counted? (feat. homomorphic encryption) - Numberphile](https://www.youtube.com/watch?v=BYRTvoZ3Rho)
+
+### numberphile2 (27)
+- [A Proof in the Drawer (with David Eisenbud) - Numberphile Podcast](https://www.youtube.com/watch?v=9y1BGvnTyQA)
+- [Addicted to Prime Numbers (full interview) - Numberphile](https://www.youtube.com/watch?v=Rd8moV7jVX0)
+- [Conway Checkers (proof) - Numberphile](https://www.youtube.com/watch?v=Or0uWM9bT5w)
+- [Euler Characteristic (some extra footage)](https://www.youtube.com/watch?v=QwfPTE7lEbE)
+- [Euler Squares (extra) - Numberphile](https://www.youtube.com/watch?v=HuIrUeODtVQ)
+- [Failed Anti-Prime Conjecture (extra footage) - Numberphile](https://www.youtube.com/watch?v=G3M6UPfSESs)
+- [Fermat’s Last Theorem (with Ken Ribet) - Numberphile Podcast](https://www.youtube.com/watch?v=NPOw4iIxN6o)
+- [Fool-Proof Secret Santa - Numberphile](https://www.youtube.com/watch?v=GhnCj7Fvqt0)
+- [GIMPS's George Woltman on discovery of 52nd Mersenne Prime (Full Interview) - Numberphile](https://www.youtube.com/watch?v=9ML2q0q53io)
+- [Heptadecagon and Fermat Primes (the math bit) - Numberphile](https://www.youtube.com/watch?v=oYlB5lUGlbw)
+- [Infinite Anti-Primes (extra footage) - Numberphile](https://www.youtube.com/watch?v=PF2GtiApF3E)
+- [Largest Known Prime discovered by Luke Durant (Full Interview) - Numberphile](https://www.youtube.com/watch?v=aJHPDGj93-w)
+- [Love Prime Numbers - Numberphile](https://www.youtube.com/watch?v=muVcPi7oWWY)
+- [Monster Group (a little extra bit)](https://www.youtube.com/watch?v=MXKiih4JJvQ)
+- [More details about the World's Biggest Prime](https://www.youtube.com/watch?v=jNXAMBvYe-Y)
+- [New Largest Known Prime with Matt Parker (Full Interview) - Numberphile](https://www.youtube.com/watch?v=oE8puWQ4taQ)
+- [Newton Goes Prime Time (bonus footage with Steven Strogatz) - Numberphile](https://www.youtube.com/watch?v=Sz5fqryP7ls)
+- [Numberphile Live (short clip)](https://www.youtube.com/watch?v=ZuJfcyA9T84)
+- [Prime at the End of the Line (extra) - Numberphile](https://www.youtube.com/watch?v=u-_8wX4cECo)
+- [Prime Generating Constant (extra) - Numberphile](https://www.youtube.com/watch?v=yXPhq-36Eq4)
+- [Quantum Computing and Other Extras (with Ron Rivest) - Numberphile](https://www.youtube.com/watch?v=tX7e7CgWrvM)
+- [The Badly Behaved Prime (with James Maynard) - Numberphile Podcast](https://www.youtube.com/watch?v=jEdF2qODzTU)
+- [The Largest Known Prime Number - Numberphile Podcast](https://www.youtube.com/watch?v=E6iz4Vs5jcc)
+- [The One Sentence Proof (in multiple sentences) - Numberphile](https://www.youtube.com/watch?v=yGsIw8LHXM8)
+- [Triangle Centres and the Euler Line (extra footage)](https://www.youtube.com/watch?v=p7oGGSwUFwM)
+- [Twin Prime Goldbach Conjecture (extra footage) - Numberphile](https://www.youtube.com/watch?v=d5IMSxRgeZk)
+- [Zero Knowledge Proof (with Avi Wigderson)  - Numberphile](https://www.youtube.com/watch?v=5ovdoxnfFVc)
+
+### standupmaths (15)
+- [Bayesian Statistics with Hannah Fry](https://www.youtube.com/watch?v=7GgLSnQ48os)
+- [Calculating pi from coin flips (without randomness)](https://www.youtube.com/watch?v=kahGSss6SsU)
+- [Exploring the mysteries of the Prime (gaps!) Line.](https://www.youtube.com/watch?v=SMsTXQYgbiQ)
+- [How do you prove a prime is infinitely fragile?](https://www.youtube.com/watch?v=p3Khnx0lUDE)
+- [How on Earth does ^.?$|^(..+?)\1+$ produce primes?](https://www.youtube.com/watch?v=5vbk0TwkokM)
+- [Killing Maths Mosquitoes with Atomic Proofs: roots of two, Fermat and prime numbers](https://www.youtube.com/watch?v=W1OkVkq2vFM)
+- [Matt & Hugh: Euler Disk III, The Correctioning](https://www.youtube.com/watch?v=XXcWQWO-uHg)
+- [Matt & Hugh: The Euler Disk Which Spins Forever](https://www.youtube.com/watch?v=55gJgCoDld4)
+- [New largest prime number found! See all 41,024,320 digits.](https://www.youtube.com/watch?v=zsyGRDrDfbI)
+- [New World-Record Largest Prime Ever Found!](https://www.youtube.com/watch?v=q5ozBnrd5Zc)
+- [Postcards from backstage: Katie and Semi-Eulerian Graphs](https://www.youtube.com/watch?v=dFvzUNMU1Lo)
+- [Ramanujan, 1729 and Fermat's Last Theorem](https://www.youtube.com/watch?v=_o0cIpLQApk)
+- [The Maths of Spinning Coins and Euler's Disk](https://www.youtube.com/watch?v=8pSLffliCk0)
+- [What is the biggest tangent of a prime?](https://www.youtube.com/watch?v=A7eJb8n8zAw)
+- [When a complicated proof simplifies everything](https://www.youtube.com/watch?v=MhJN9sByRS0)
+
+### matt_parker_2 (11)
+- [All the uncut maths for the 'Is Kinetic Energy actually ½mv²?' video](https://www.youtube.com/watch?v=VyYKwJanACI)
+- [Bonus video: knot rules](https://www.youtube.com/watch?v=Qp2LDpJo-Ng)
+- [Euler's Disk: 10% speed](https://www.youtube.com/watch?v=2Kk0KMQeRCk)
+- [Euler's Disk: normal speed](https://www.youtube.com/watch?v=dmo0whbDiGQ)
+- [Infinitely Fragile Primes: bonus content!](https://www.youtube.com/watch?v=wtzgbJuHSfM)
+- [MPMP: Prime Pairs Puzzle](https://www.youtube.com/watch?v=AXfl_e33Gt4)
+- [MPMSolution: the prime pairs puzzle](https://www.youtube.com/watch?v=JViGPBykh5k)
+- [Naive fraction sum proof](https://www.youtube.com/watch?v=HMwhuKfM4xc)
+- [Predicting primes using the Prime (gaps) Line equation [DELETED SCENE]](https://www.youtube.com/watch?v=omBJTZUefEQ)
+- [Steamed Primes](https://www.youtube.com/watch?v=kwJ0LJOlUj4)
+- [Why do monkeys count in base-8?](https://www.youtube.com/watch?v=EZpJ7h8k1fo)

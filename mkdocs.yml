@@ -1,0 +1,59 @@
+site_name: RWC Book Club
+site_description: Real-World Cryptography book club supplemental videos
+site_url: https://hacker6284.github.io/rwc-bookclub/
+repo_url: https://github.com/hacker6284/rwc-bookclub
+repo_name: hacker6284/rwc-bookclub
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+
+nav:
+  - Home: index.md
+  - Method: method.md
+  - Chapters:
+      - "0 Foundations (supplemental; not a Wong chapter)": chapters/00-foundations.md
+      - "1 Introduction": chapters/01-introduction.md
+      - "2 Hash functions": chapters/02-hash-functions.md
+      - "3 Message authentication codes": chapters/03-message-authentication-codes.md
+      - "4 Authenticated encryption": chapters/04-authenticated-encryption.md
+      - "5 Key exchanges": chapters/05-key-exchanges.md
+      - "6 Asymmetric encryption and hybrid encryption": chapters/06-asymmetric-encryption-and-hybrid-encryption.md
+      - "7 Signatures and zero-knowledge proofs": chapters/07-signatures-and-zero-knowledge-proofs.md
+      - "8 Randomness and secrets": chapters/08-randomness-and-secrets.md
+      - "9 Secure transport": chapters/09-secure-transport.md
+      - "10 End-to-end encryption": chapters/10-end-to-end-encryption.md
+      - "11 User authentication": chapters/11-user-authentication.md
+      - "12 Crypto as in cryptocurrency?": chapters/12-crypto-as-in-cryptocurrency.md
+      - "13 Hardware cryptography": chapters/13-hardware-cryptography.md
+      - "14 Post-quantum cryptography": chapters/14-post-quantum-cryptography.md
+      - "15 Is this it? Next-generation cryptography": chapters/15-is-this-it-next-generation.md
+      - "16 When and where cryptography fails": chapters/16-when-and-where-cryptography-fails.md
+  - Video index: appendix.md
