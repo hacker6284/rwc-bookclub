@@ -1,6 +1,6 @@
 # Placement redo notes (transcript-based)
 
-Date: 2026-09-25 00:45 
+Date: 2026-09-25 00:47 
 
 ## Method
 1. Start from `audit/*_relevant.json` in-scope lists (348 videos).

@@ -256,7 +256,7 @@ All in-scope candidates after transcript review. Unplaced entries are intentiona
 | `numberphile` | [Infinite Primes - Numberphile](https://www.youtube.com/watch?v=ctC33JAV4FI) | 0.4 | medium |
 | `numberphile` | [Large Gaps between Primes - Numberphile](https://www.youtube.com/watch?v=BH1GMGDYndo) | 0.4 | medium |
 | `numberphile` | [Looking at Perfect Shuffles - Numberphile](https://www.youtube.com/watch?v=OfEv5ZdSrhY) | *(unplaced)* | low |
-| `numberphile` | [Mathematics is all about SHORTCUTS - Numberphile](https://www.youtube.com/watch?v=BdEWCxt8C0M) | 0.5 | high |
+| `numberphile` | [Mathematics is all about SHORTCUTS - Numberphile](https://www.youtube.com/watch?v=BdEWCxt8C0M) | 0.4 | high |
 | `numberphile` | [Matrix Factorization - Numberphile](https://www.youtube.com/watch?v=wTUSz-HSaBg) | 0.5 | high |
 | `numberphile` | [Monster Group (John Conway) - Numberphile](https://www.youtube.com/watch?v=jsSeoGpiWsw) | 0.4 | medium |
 | `numberphile` | [New Largest Known Prime Number - Numberphile](https://www.youtube.com/watch?v=QSEKzFGpCQs) | 0.4 | high |
@@ -278,8 +278,8 @@ All in-scope candidates after transcript review. Unplaced entries are intentiona
 | `numberphile` | [Squaring Primes - Numberphile](https://www.youtube.com/watch?v=ZMkIiFs35HQ) | 0.4 | medium |
 | `numberphile` | [Sum of Natural Numbers (second proof and extra footage)](https://www.youtube.com/watch?v=E-d9mgo8FGk) | 0.5 | high |
 | `numberphile` | [The Biggest Gaps Between Primes - Numberphile](https://www.youtube.com/watch?v=oax6t6Of2WY) | 0.4 | medium |
-| `numberphile` | [The Bridges to Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=nUN4NDVIfVI) | 2.4.2 | medium |
-| `numberphile` | [The Heart of Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=ua1K3Eo2PQc) | 0.5 | medium |
+| `numberphile` | [The Bridges to Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=nUN4NDVIfVI) | 0.4 | high |
+| `numberphile` | [The Heart of Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=ua1K3Eo2PQc) | 0.4 | high |
 | `numberphile` | [The Last Digit of Prime Numbers - Numberphile](https://www.youtube.com/watch?v=YVvfY_lFUZ8) | 0.4 | high |
 | `numberphile` | [The Man Who Found the World's Biggest Prime - Numberphile](https://www.youtube.com/watch?v=Yp4ilFOtoeg) | 0.4 | medium |
 | `numberphile` | [The Most Evil Number (Belphegor's Prime) - Numberphile](https://www.youtube.com/watch?v=zk_Q9y_LNzg) | 0.4 | medium |
@@ -303,7 +303,7 @@ All in-scope candidates after transcript review. Unplaced entries are intentiona
 | `numberphile2` | [Euler Characteristic (some extra footage)](https://www.youtube.com/watch?v=QwfPTE7lEbE) | 0.5 | medium |
 | `numberphile2` | [Euler Squares (extra) - Numberphile](https://www.youtube.com/watch?v=HuIrUeODtVQ) | *(unplaced)* | low |
 | `numberphile2` | [Failed Anti-Prime Conjecture (extra footage) - Numberphile](https://www.youtube.com/watch?v=G3M6UPfSESs) | *(unplaced)* | low |
-| `numberphile2` | [Fermat’s Last Theorem (with Ken Ribet) - Numberphile Podcast](https://www.youtube.com/watch?v=NPOw4iIxN6o) | 0.4 | medium |
+| `numberphile2` | [Fermat’s Last Theorem (with Ken Ribet) - Numberphile Podcast](https://www.youtube.com/watch?v=NPOw4iIxN6o) | 0.4 | high |
 | `numberphile2` | [Fool-Proof Secret Santa - Numberphile](https://www.youtube.com/watch?v=GhnCj7Fvqt0) | *(unplaced)* | low |
 | `numberphile2` | [GIMPS's George Woltman on discovery of 52nd Mersenne Prime (Full Interview) - Numberphile](https://www.youtube.com/watch?v=9ML2q0q53io) | 0.4 | medium |
 | `numberphile2` | [Heptadecagon and Fermat Primes (the math bit) - Numberphile](https://www.youtube.com/watch?v=oYlB5lUGlbw) | *(unplaced)* | low |

@@ -72,6 +72,7 @@
 - [How they found the World's Biggest Prime Number - Numberphile](https://www.youtube.com/watch?v=lEvXcTYqtKU) — `numberphile`
 - [Infinite Primes - Numberphile](https://www.youtube.com/watch?v=ctC33JAV4FI) — `numberphile`
 - [Large Gaps between Primes - Numberphile](https://www.youtube.com/watch?v=BH1GMGDYndo) — `numberphile`
+- [Mathematics is all about SHORTCUTS - Numberphile](https://www.youtube.com/watch?v=BdEWCxt8C0M) — `numberphile`
 - [Monster Group (John Conway) - Numberphile](https://www.youtube.com/watch?v=jsSeoGpiWsw) — `numberphile`
 - [New Largest Known Prime Number - Numberphile](https://www.youtube.com/watch?v=QSEKzFGpCQs) — `numberphile`
 - [New World's Biggest Prime Number (PRINTED FULLY ON PAPER) - Numberphile](https://www.youtube.com/watch?v=tlpYjrbujG0) — `numberphile`
@@ -87,6 +88,8 @@
 - [Sexy Primes - Numberphile](https://www.youtube.com/watch?v=WJ12DYBuazY) — `numberphile`
 - [Squaring Primes - Numberphile](https://www.youtube.com/watch?v=ZMkIiFs35HQ) — `numberphile`
 - [The Biggest Gaps Between Primes - Numberphile](https://www.youtube.com/watch?v=oax6t6Of2WY) — `numberphile`
+- [The Bridges to Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=nUN4NDVIfVI) — `numberphile`
+- [The Heart of Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=ua1K3Eo2PQc) — `numberphile`
 - [The Last Digit of Prime Numbers - Numberphile](https://www.youtube.com/watch?v=YVvfY_lFUZ8) — `numberphile`
 - [The Man Who Found the World's Biggest Prime - Numberphile](https://www.youtube.com/watch?v=Yp4ilFOtoeg) — `numberphile`
 - [The Most Evil Number (Belphegor's Prime) - Numberphile](https://www.youtube.com/watch?v=zk_Q9y_LNzg) — `numberphile`
@@ -128,10 +131,8 @@
 - [Who cares about topology?   (Old version)](https://www.youtube.com/watch?v=AmgkSdhK4K8) — `3blue1brown`
 - [A Miraculous Proof (Ptolemy's Theorem) - Numberphile](https://www.youtube.com/watch?v=bJOuzqu3MUQ) — `numberphile`
 - [Euler's Formula - Numberphile](https://www.youtube.com/watch?v=CRj-sbi2i2I) — `numberphile`
-- [Mathematics is all about SHORTCUTS - Numberphile](https://www.youtube.com/watch?v=BdEWCxt8C0M) — `numberphile`
 - [Matrix Factorization - Numberphile](https://www.youtube.com/watch?v=wTUSz-HSaBg) — `numberphile`
 - [Sum of Natural Numbers (second proof and extra footage)](https://www.youtube.com/watch?v=E-d9mgo8FGk) — `numberphile`
-- [The Heart of Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=ua1K3Eo2PQc) — `numberphile`
 - [e (Euler's Number) - Numberphile](https://www.youtube.com/watch?v=AuA2EAgAegE) — `numberphile`
 - [Euler Characteristic (some extra footage)](https://www.youtube.com/watch?v=QwfPTE7lEbE) — `numberphile2`
 
