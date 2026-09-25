@@ -19,10 +19,6 @@
 
 - [Elliptic Curve Back Door - Computerphile](https://www.youtube.com/watch?v=nybVFJVXbww) — `computerphile`
 - [Elliptic Curves - Computerphile](https://www.youtube.com/watch?v=NF1pwjL9-DE) — `computerphile`
-- [Mathematics is all about SHORTCUTS - Numberphile](https://www.youtube.com/watch?v=BdEWCxt8C0M) — `numberphile`
-- [The Bridges to Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=nUN4NDVIfVI) — `numberphile`
-- [The Heart of Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=ua1K3Eo2PQc) — `numberphile`
-- [Fermat’s Last Theorem (with Ken Ribet) - Numberphile Podcast](https://www.youtube.com/watch?v=NPOw4iIxN6o) — `numberphile2`
 
 ### 5.3.1 What’s an elliptic curve?
 

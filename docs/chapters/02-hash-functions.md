@@ -16,6 +16,8 @@
 
 ### 2.4.2 Subresource integrity
 
+- [The Bridges to Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=nUN4NDVIfVI) — `numberphile`
+
 ### 2.4.3 BitTorrent
 
 ### 2.4.4 Tor
